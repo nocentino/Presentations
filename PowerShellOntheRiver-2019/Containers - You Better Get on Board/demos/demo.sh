@@ -117,7 +117,7 @@ docker run \
     -p 1433:1433 \
     -v sqldata1:/var/opt/mssql \
     -d \
-    mcr.microsoft.com/mssql/server:2017-latest
+    mcr.microsoft.com/mssql/server:2019-CTP3.0-ubuntu
 
 #Check out our list of databases...wut?
 sqlcmd -S localhost,1433 -U sa -Q 'SELECT name from sys.databases' -P $PASSWORD

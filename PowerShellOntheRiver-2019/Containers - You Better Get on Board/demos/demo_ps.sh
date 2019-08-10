@@ -90,6 +90,11 @@ docker run                       \
     --volume PSScripts:/scripts  \
       mcr.microsoft.com/powershell:6.2.2-ubuntu-18.04 pwsh -F /scripts/Get-Containers.ps1
 
+docker run                       \
+    --rm                         \
+    --volume ~/Dropbox/Presentations/PowerShellOntheRiver-2019/Containers - You Better Get on Board/demos:/scripts  \
+      mcr.microsoft.com/powershell:6.2.2-ubuntu-18.04 pwsh -F /scripts/Get-Containers.ps1
+
 docker ps -a
 
 #Clean up time
