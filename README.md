@@ -32,8 +32,8 @@ November 1 - November 3, 2017 | PASS Summit 2017 | Monitoring Linux Performance 
 October 22 - 26, 2017 | IT/Dev Connections | Networking Internals for the SQL Server Professional
 October 22 - 26, 2017 | IT/Dev Connections | Linux OS Fundamentals for the SQL Admin
 October 7, 2017 | SQL Saturday #680 Kansas City | Performance Monitoring Always On Availability Groups
-September 20, 2017 | PASS DBA Virtual Chapter | Linux OS Fundamentals for the SQL Admin | [Recording]()
-September 8, 2017 | GroupBy | Networking Internals for the SQL Professional | [Recording]()
+September 20, 2017 | PASS DBA Virtual Chapter | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=MJmuGmpso44&feature=youtu.be)
+September 8, 2017 | GroupBy | Networking Internals for the SQL Professional | [Recording](https://www.youtube.com/watch?v=hFRvu47YV90&feature=youtu.be)
 August 7-12, 2017 | TechMentor Redmond
 July 15, 2017 | SQL Saturday #650 Sacramento
 June 3, 2017 | SQL Saturday #617 Pensacola 
@@ -42,7 +42,7 @@ May 9, 2017 | Mississippi PowerShell User Group
 April 9-12, 2017 | PowerShell Summit
 March 11, 2017 | SQLSaturday #600 - Chicago
 February 21, 2017 | Chicago Suburban SQL Server User Group
-February 1, 2016 | SQL Pass PowerShell Virtual Chapter |  | [Recording]()
+February 1, 2016 | SQL Pass PowerShell Virtual Chapter |  | [Recording](https://www.youtube.com/watch?v=DXQrK2QNoZo&feature=youtu.be)
 January 14, 2016 | SQLSaturday #581 - Nashville
 November 11, 2016 | Albuquerque SQL Server User Group
 October 11, 2016 | IT/Dev Connections - Las Vegas
