@@ -1,0 +1,16 @@
+<#
+	Author: 		Anthony E. Nocentino
+	Email:			aen@centinosystems.com
+	Description:		Basics here, a PS command can pipe into a LINUX command. Respecting stdin.
+				Review tab completion basics and verb-noun paradigm.
+#>
+
+
+Get-P* 				#double tab for tabl complete
+gc
+gci
+more				#powershell leaves this alone, native command. But output is interesting. Why?
+Get-Alias			#gets a list of aliases
+ls				#powershell leaves this alone, on a Windows system this is aliased to Get-Content
+ls -la  			#powershell leaves this alone.
+Get-Process | head		#A PS command piping into a native Linux command. 

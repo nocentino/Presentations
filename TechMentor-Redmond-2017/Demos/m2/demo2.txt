@@ -1,0 +1,10 @@
+<#
+	Author: 		Anthony E. Nocentino
+	Email:			aen@centinosystems.com
+	Description:		We have the ability to launch other scripting language environments in powershell using the #! directives at the top of scripts. 
+				So launch the sh script driverScript.sh, this will launch a PowerShell script fileDescriptors.ps1. FileDesccriptors.ps1 does several
+				types of output operations using IO redirection and the pipeline.
+#>					
+					
+sh ./driverScript.sh
+Get-Content fileDescriptors.ps1

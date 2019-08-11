@@ -1,0 +1,11 @@
+<#
+	Author: 		Anthony E. Nocentino
+	Email:			aen@centinosystems.com
+	Description:		Using the python program hello.py, redirect standard out to file. This shows how PowerShell, as a shell, properly handles
+				output redirection of a byte stream from yet another lauguage.
+#>	
+	
+./hello.py                                                                                                               
+./hello.py | Select-Object $_                                                                                            
+./hello.py | Get-Member                                                                                                  
+./hello.py | Get-Member | head

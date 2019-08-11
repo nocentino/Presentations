@@ -1,0 +1,9 @@
+<#
+	Author: 		Anthony E. Nocentino
+	Email:			aen@centinosystems.com
+	Description:		Using the c program myLoop, redirect standard error out to file. This shows how PowerShell, as a shell, properly handles
+				output redirection of a byte stream from a standard c program.
+#>	
+
+gcc loop.c -o myLoop		#used to compile our loop program.
+myloop 2> outfile		#redirect stderr to outfile

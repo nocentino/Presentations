@@ -1,0 +1,144 @@
+﻿/*
+	Anthony E. Nocentino
+	aen@centinosystems.com
+	www.centinosystems.com
+*/
+Looking at our CPU Topology
+4vCPUs 12GB RAM
+Setup
+	Freshly booted system
+	Warm buffer pool for t1 in TestDB1 - read in table select * from testdb1.dbo.t1
+	Instance Max Memory 8192
+	htop configured to show threads and by tree
+	Two SSH connections to SQL on Linux instance
+	Connect VScode open demos.sql
+
+CPU
+	1. Processes and threads
+		Launch htop, show that all the VIRT and RSS columns are the same for each thread because of the shared memory space.
+
+	2. Run load average under CPU saturation
+		./mySqlCmd.sh checkdb.sql
+
+	Key Points 
+	 - Primarily in kernel time while reading from disk and allocating pages in memory. 
+	 - Once the workload is in memory, then CPU will drop and we�ll be mostly in user space.
+	 - Load average goes up to above 2
+	 - Observe different workers doing work, these corresponds to SQL tasks executing in a worker
+	 - Table is larger than buffer pool, so PLE dips and we have to wait on IO as pages are pushed out and read in.
+	 - Review process states R, S and D
+
+	3. Exploring procfs
+		ls /proc
+		more /proc/cpuinfo
+		lscpu
+		pidof sqlservr
+		cd /proc/PID/
+		more cmdline
+		more status (comes from task_struct)
+
+	Bonus Material 
+	pidstat -C "sqlservr"-u -p ALL 1
+	strace -f -p PID
+
+	strace like with durations
+	sudo perf trace -p PID
+	sudo perf top -p PID --sort comm,dso,symbol,cpu
+
+Memory
+	0. Warm up buffer pool 
+		a. select * from testdb1.dbo.t1
+
+	1. Memory layout
+		a. free -m
+		b. htop - look as RSS and VSZ
+
+		c. Memory utilization and allocation types
+			pidof sqlservr
+			cd /prod/pid/
+			more status (Review all VM attributes)
+				VmPeak:	Peak virtual memory usage
+		 		VmSize:	Current virtual memory usage
+				VmLck:	Current mlocked memory
+				VmHWM:	Peak resident set size
+				VmRSS:	Resident set size
+				VmData:	Size of "data" segment
+				VmStk:	Size of stack
+				VmExe:	Size of "text" segment
+				VmLib:	Shared library usage
+				VmPTE:	Pagetable entries size
+				VmSwap:	Swap space used
+
+	3. External Memory Pressure Demo and Excessive swapping
+		a. start read workload
+			./mysqlcmd.sh readtable.sql
+
+		b. Review VSZ and RES for sqlservr in htop, should be around 8GB
+			htop 
+			
+		c. Apply external memory pressure, but not enough to fill the swap file
+			./memtest 7000
+		
+		d. In htop review RES for both sqlservr and memstat, also swap usage
+
+		e. Observe the swap in/out of pages, identify thrasing due to read workload and memtest
+			whole system
+			vmstat 1 
+			
+		f. Individual process
+			pidstat -r 1 (minor = uninitialized memory, major = from disk)
+
+		g. Find the amount of a process that swapped out
+			pidof sqlservr
+			cd /prod/PID
+			watch grep VmSwap status
+			grep Huge /proc/meminfo 
+
+		h. In VSCode, query sys.dm_os_memory_clerks, bpool still populated even though 1/2 of address space is paged out
+
+		i. fg and kill memstat, RES of sqlserver will grow since read workload will pull the pages back in
+
+		j. Query ring buffer for resource monitor alerts
+
+	So what�s this mean? 
+	Set max memory your instance to control memory allocation and control paging
+
+	#Bonus Materials - view anonymous pages and memory map
+	pmap -x PID of HE
+	pmap -x PID of sqlservr #review anomymous pats, SFPs and other linux libraries loaded
+
+Disk monitoring
+	1. Identifying high I/O processes
+		./mySqlCmd.sh checkdb.sql
+		iotop
+		pidstat -d 1
+
+	2. Review iostat column definitions
+		iostat -dx
+
+	3. In VSCode, query dm_io_virtual_file_stats
+
+	#Bonus Material
+		Block sizes and file system configuration
+		xfs_info /
+
+Using sar to answer what happened when? Are these point in time samples? 
+	1. CPU utilization
+		sar -u  
+		sar -u -P ALL. //per CPU breakdown
+		sar -q	load averages
+	
+	2. Memory 
+		sar -r
+
+	3. Swapping/Paging
+		sar -B
+		sar -S
+
+	4. Disk 
+		sar -b
+ 
+	5. Everything
+		sar -A
+		sar -A -P ALL | less
+

@@ -1,0 +1,13 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: "pvc-sql-data"
+spec:
+  storageClassName: local-storage #storage class in the pv and pvc must match for the pvc to use the pv
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+
+#https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/

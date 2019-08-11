@@ -1,0 +1,72 @@
+Setup
+	Internet access needed
+	Online router, dc1, sql-a, sql-b, sql-c
+	ssh to router
+	open wireshark with filter on ip.addr==192.168.1.1 or arp or icmp
+	Four powershell consoles
+		one local, one remote to sql-b and two to sql-c
+	Disable firewall on SQL-A
+
+Layer 2 - ARP 
+Start Wireshark
+In cmd window - arp -d 192.168.1.1 && ping -n 2 192.168.1.1
+arp -a on SQLA, review arp request to 192.168.1.1
+
+Layer 3 - IP
+review ping request from previous demo
+tracert -d 4.2.2.2
+
+Use to print your local server's routing table
+route print
+
+Layer 4 - netstat - use to track connections and state
+netstat
+netstat -an
+netstat -se
+netstat -bano
+
+On sql-a Start iperf server
+iperf3.exe -s
+
+On sql-b test to sql-a
+iperf3.exe -c sql-a
+
+Review connection details and throughput.
+
+On sql-c test to sql-a
+iperf3.exe -c sql-a
+
+Ask, why is sql-b faster than sql-c….traffic must pass thru the router and my linux router on this laptop
+is having to process each IP packet. Where SQL-B to SQL-A is just moving on the layer2 segment.
+
+Add Latency
+router - sh add_latency_40.sh
+
+On sql-c test to sql-a
+iperf3.exe -c sql-a
+
+Dropped packets 
+router - sh add_instability.sh
+
+On sql-c test to sql-a
+iperf3.exe -c sql-a
+
+SYN_SENT
+Turn on Windows firewall 
+SQL-A - Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
+SQL-C - iperf3.exe -c sql-a
+SQL-C - netstat -an 
+SQL-A - Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+
+SQL Server Backup/Restore
+Backup from SQL-A->SQL-B
+Inject unreliability
+Backup from SQL-A->SQL-B
+
+Availability Group Replication
+Start workload, Start Wireshark, filter to SQL-C
+
+Analyze log queues
+
+
+

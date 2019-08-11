@@ -1,0 +1,51 @@
+#Readme for Linux OS Fundamentals for the SQL Admin
+#Anthony E. Nocentino
+#aen@centinosystems.com
+#@nocentino
+
+#Building a command pipeline to get the top 10 processes
+#list processes, list all user processes, list all user processes sorted, list all user processes sorted numerically, reverse by the third column. Then pull off the top 10 from that.
+
+Logging into a system remotely
+ssh aen@server1
+
+ps
+ps -aux 
+ps -aux | sort
+ps -aux | sort -nrk 3 | head
+ps -aux --no-headers | sort -nrk 3 | head
+
+#Launch powershell on Linux and build a command pipeline to get the 10 top processes
+pwsh
+
+Get-Process | Sort-Object -Descending CPU | Select-Object -First 10   
+
+#Installing a third party repository and installing a package from a repository
+#switch to super user, install the repository, examine the repo configuration file, install SQL Server on Linux and run SQL on Linux setup script
+
+sudo curl -o /etc/yum.repos.d/mssql-server.repo https://packages.microsoft.com/config/rhel/7/mssql-server-2017.repo
+more /etc/yum.repos.d/mssql-server.repo
+sudo yum install -y mssql-server
+sudo /opt/mssql/bin/mssql-conf setup
+
+#Interacting with systemd
+#list all system units, list all system units, grep for only ones with sql in their name
+
+sudo systemctl list-unit-files 
+sudo systemctl list-unit-files | grep -i sql
+
+#working with a service unit on systemd
+sudo systemctl status mssql-server
+sudo systemctl start mssql-server
+sudo systemctl disable mssql-server
+sudo systemctl status mssql-server
+sudo systemctl enable mssql-server
+sudo systemctl status mssql-server
+sudo systemctl status mssql-server -l
+
+#list all installed RPMS and filter the output looking for the string "power"
+rpmquery --all | grep power
+
+#list all files inside the installed powershell package
+rpmquery -ql powershell | more 
+

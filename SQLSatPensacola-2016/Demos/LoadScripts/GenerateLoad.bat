@@ -1,0 +1,1 @@
+start cmd /c sqlcmd -S. -i .\AGLoadGenerator1.sql
