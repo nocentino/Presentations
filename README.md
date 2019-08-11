@@ -42,7 +42,7 @@ May 9, 2017 | Mississippi PowerShell User Group
 April 9-12, 2017 | PowerShell Summit
 March 11, 2017 | SQLSaturday #600 - Chicago
 February 21, 2017 | Chicago Suburban SQL Server User Group
-February 1, 2016 | SQL Pass PowerShell Virtual Chapter | [Recording]()
+February 1, 2016 | SQL Pass PowerShell Virtual Chapter |  | [Recording]()
 January 14, 2016 | SQLSaturday #581 - Nashville
 November 11, 2016 | Albuquerque SQL Server User Group
 October 11, 2016 | IT/Dev Connections - Las Vegas
