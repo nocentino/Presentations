@@ -20,7 +20,7 @@ kubectl expose deployment hello-world --port=80 --target-port=8080
 kubectl get service hello-world
 
 #Access the service inside the cluster
-curl http://10.96.43.35
+curl http://10.105.75.73
 
 #We can edit the resources "on the fly" with kubectl edit. But this isn't reflected in our yaml. But is
 #persisted in the etcd database...cluster store. Change 1 to 5.
@@ -31,7 +31,7 @@ kubectl edit deployment hello-world
 kubectl get pods
 
 #Access the application again, try it several times, app will load balance.
-curl http://10.96.39.239
+curl http://10.105.75.73
 
 kubectl delete service hello-world
 kubectl delete deployment hello-world

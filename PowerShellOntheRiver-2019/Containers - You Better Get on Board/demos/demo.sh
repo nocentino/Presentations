@@ -46,6 +46,7 @@ docker ps
 sqlcmd -S localhost,1434 -U sa -Q 'SELECT @@SERVERNAME' -P $PASSWORD
 
 #Copy a file into a container
+#You can get WideWorldImporters-Full.bak from - https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Full.bak
 docker cp WideWorldImporters-Full.bak sql2:/var/opt/mssql/data
 
 #Restore a database to our container
