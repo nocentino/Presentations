@@ -19,7 +19,7 @@ Date | Event | Session | Recording
 02/12/2019 | [PASS HADR Virtual Chapter](https://hadr.pass.org/MeetingArchive.aspx) | Kubernetes - An Architectural Deep Dive | [Recording](https://www.youtube.com/watch?v=d5Rmu3fboiQ)
 02/5/2019 | Chattanooga PowerShell User Group | Containers - You Better Get on Board!
 01/12/2019 | SQL Saturday Nashville | Containers - You Better Get on Board! 
-01/12/2019 | SQL Saturday Nashville Session - Kubernetes - An Architectural Deep Dive
+01/12/2019 | SQL Saturday Nashville | Kubernetes - An Architectural Deep Dive
 11/01/2018 | [We Speak Linux](https://wespeaklinux.com/register-for-upcoming-webcasts/) | OpenSSH for Windows Pros
 09/08/2018 | SQL Saturday Cambridge | Monitoring Linux Performance for the SQL Server Admin 
 09/08/2018 | SQL Saturday Cambridge | Containers - You Better Get on Board
@@ -38,21 +38,21 @@ Date | Event | Session | Recording
 10/07/2017 | SQL Saturday #680 Kansas City | Performance Monitoring Always On Availability Groups
 09/20/2017 | PASS DBA Virtual Chapter | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=MJmuGmpso44&feature=youtu.be)
 09/08/2017 | GroupBy | Networking Internals for the SQL Professional | [Recording](https://www.youtube.com/watch?v=hFRvu47YV90&t=0s)
-08/7-12/2017 | TechMentor Redmond
-07/15/2017 | SQL Saturday #650 Sacramento
-06/03/2017 | SQL Saturday #617 Pensacola 
+08/7-12/2017 | TechMentor Redmond | Linux OS Fundamentals for the Windows Admin
+07/15/2017 | SQL Saturday #650 Sacramento | Designing High Availability Systems using AlwaysOn Availability Groups
+07/15/2017 | SQL Saturday #650 Sacramento | Linux OS Fundamentals for the SQL Admin
+06/03/2017 | SQL Saturday #617 Pensacola | Designing High Availability Systems using AlwaysOn Availability Groups
 05/19-20/2017 | Tuga IT | Open Source PowerShell on Linux - Skills to Manage Your Heterogenous Data Center
-05/09/2017 | Mississippi PowerShell User Group
-04/09-12/2017 | PowerShell Summit
-03/11/2017 | SQLSaturday #600 - Chicago
-02/21/2017 | Chicago Suburban SQL Server User Group
-02/01/2017 | SQL Pass PowerShell Virtual Chapter |  | [Recording](https://www.youtube.com/watch?v=DXQrK2QNoZo&t=1s)
-01/14/2017 | SQLSaturday #581 - Nashville
-11/11/2016 | Albuquerque SQL Server User Group
-10/11/2016 | IT/Dev Connections - Las Vegas
-08/06/2016 | SQL Saturday #515 - Baton Rouge
-07/23/2016 | SQL Saturday #540 - Sacramento
-06/04/2016 | SQL Saturday #491 - Pensacola
+05/09/2017 | Mississippi PowerShell User Group | Linux OS Fundamentals for the PowerShell Expert
+03/11/2017 | SQLSaturday #600 - Chicago | Networking Internals for the SQL Professional
+02/21/2017 | Chicago Suburban SQL Server User Group | Networking Internals for the SQL Professional
+02/01/2017 | SQL Pass PowerShell Virtual Chapter | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=DXQrK2QNoZo&t=1s)
+01/14/2017 | SQLSaturday #581 - Nashville | Networking Internals for the SQL Professional
+11/11/2016 | Albuquerque SQL Server User Group | Performance Monitoring Always On Availability Groups
+10/11/2016 | IT/Dev Connections - Las Vegas | Designing High Availability Systems using AlwaysOn Availability Groups
+08/06/2016 | SQL Saturday #515 - Baton Rouge | Performance Monitoring Always On Availability Groups
+07/23/2016 | SQL Saturday #540 - Sacramento | Performance Monitoring Always On Availability Groups
+06/04/2016 | SQL Saturday #491 - Pensacola | Performance Monitoring Always On Availability Groups
 05/10/2016 | HADR Virtual Chapter | Performance Monitoring Always On Availability Groups | [Recording](https://www.youtube.com/watch?v=311HvThxLBA&t=0s)
-03/05/2016 | SQL Saturday #484 - Chicago
-01/19/2016 | Chicago Suburban SQL Server User Group 
+03/05/2016 | SQL Saturday #484 - Chicago | Performance Monitoring Always On Availability Groups
+01/19/2016 | Chicago Suburban SQL Server User Group | Performance Monitoring Always On Availability Groups
