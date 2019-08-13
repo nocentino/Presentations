@@ -2,6 +2,7 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+08/12/2019 | PASS DBA Virtual Chapter | Containers - You Better Get On Board |
 08/10/2019 | PowerShell on the River	| Containers - You Better Get On Board
 08/10/2019 | PowerShell on the River	| Kubernetes - An Architectural Deep Dive
 07/07/2019 | PASS Virtualization Virtual Chapter | Containers - You Better Get On Board |
