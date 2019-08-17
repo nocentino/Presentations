@@ -2,6 +2,8 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+08/17/2019 | [SQL Saturday #515 - Baton Rouge](https://www.sqlsaturday.com/867/EventHome.aspx) | [Containers - You Better Get On Board](https://www.sqlsaturday.com/867/Sessions/Details.aspx?sid=93915)
+08/17/2019 | [SQL Saturday #515 - Baton Rouge](https://www.sqlsaturday.com/867/EventHome.aspx) | [Kubernetes - An Architectural Deep Dive](https://www.sqlsaturday.com/867/Sessions/Details.aspx?name=inside-kubernetes-an-architectural-deep-dive&sid=93916) 
 08/12/2019 | PASS DBA Virtual Chapter | Containers - You Better Get On Board |
 08/10/2019 | PowerShell on the River	| Containers - You Better Get On Board
 08/10/2019 | PowerShell on the River	| Kubernetes - An Architectural Deep Dive
@@ -21,11 +23,6 @@ Date | Event | Session | Recording
 02/05/2019 | Chattanooga PowerShell User Group | Containers - You Better Get on Board!
 01/12/2019 | SQL Saturday Nashville | Containers - You Better Get on Board! 
 01/12/2019 | SQL Saturday Nashville | Kubernetes - An Architectural Deep Dive
-
-# Presentations - 2018
-
-Date | Event | Session | Recording
---- | --- | --- | ---
 11/01/2018 | [We Speak Linux](https://wespeaklinux.com/register-for-upcoming-webcasts/) | OpenSSH for Windows Pros
 09/08/2018 | SQL Saturday Cambridge | Monitoring Linux Performance for the SQL Server Admin 
 09/08/2018 | SQL Saturday Cambridge | Containers - You Better Get on Board
@@ -36,11 +33,6 @@ Date | Event | Session | Recording
 02/20/2018 | Utah County SQL Server Users Group | Linux OS Fundamentals for the SQL Admin
 02/19/2018 | PASS Global Hebrew Virtual Meetup | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=aFudBKVIxxQ)
 01/13/2018 | SQL Saturday Nashville | Networking Internals for the SQL Server Professional
-
-# Presentations - 2017
-
-Date | Event | Session | Recording
---- | --- | --- | ---
 12/13/2017 | PASS Marathon: Linux Edition | Monitoring Linux Performance for the SQL Admin
 12/13/2017 | PASS Database Administration Virtual Group | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=MJmuGmpso44&feature=youtu.be)
 11/01/2017 | PASS Summit 2017 | Monitoring Linux Performance for the SQL Admin
@@ -59,11 +51,6 @@ Date | Event | Session | Recording
 02/21/2017 | Chicago Suburban SQL Server User Group | Networking Internals for the SQL Professional
 02/01/2017 | SQL Pass PowerShell Virtual Chapter | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=DXQrK2QNoZo&t=1s)
 01/14/2017 | SQLSaturday #581 - Nashville | Networking Internals for the SQL Professional
-
-# Presentations - 2016
-
-Date | Event | Session | Recording
---- | --- | --- | ---
 11/11/2016 | Albuquerque SQL Server User Group | Performance Monitoring Always On Availability Groups
 10/11/2016 | IT/Dev Connections - Las Vegas | Designing High Availability Systems using AlwaysOn Availability Groups
 08/06/2016 | SQL Saturday #515 - Baton Rouge | Performance Monitoring Always On Availability Groups
