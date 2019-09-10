@@ -1,0 +1,35 @@
+#PersistentVolume Used for cluster defined storage
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-sql-data
+spec:
+  capacity:
+    storage: 10Gi
+  volumeMode: Filesystem
+  accessModes:
+  - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  local:
+    path: /data/mssql-data/
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - c1-node1
+#https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: "pvc-sql-data"
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+#https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
