@@ -2,7 +2,7 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-09/10/2019 | [PASS HADR Virtual Chapter](https://hadr.pass.org/MeetingDetails.aspx?EventID=14014) | Deploying SQL Server in Kubernetes 
+09/10/2019 | [PASS HADR Virtual Chapter](https://hadr.pass.org/MeetingDetails.aspx?EventID=14014) | Deploying SQL Server in Kubernetes | [Recording](https://www.youtube.com/watch?v=5u3Dk4zKa9A&feature=youtu.be)
 08/17/2019 | [SQL Saturday #515 - Baton Rouge](https://www.sqlsaturday.com/867/EventHome.aspx) | [Containers - You Better Get On Board](https://www.sqlsaturday.com/867/Sessions/Details.aspx?sid=93915)
 08/17/2019 | [SQL Saturday #515 - Baton Rouge](https://www.sqlsaturday.com/867/EventHome.aspx) | [Kubernetes - An Architectural Deep Dive](https://www.sqlsaturday.com/867/Sessions/Details.aspx?name=inside-kubernetes-an-architectural-deep-dive&sid=93916) 
 08/12/2019 | PASS DBA Virtual Chapter | Containers - You Better Get On Board |
