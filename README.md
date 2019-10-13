@@ -2,6 +2,8 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+10/12/2019 | [SQL Saturday #908 Denver](https://www.sqlsaturday.com/908/EventHome.aspx) | [Practical Container Scenarios in Azure](https://www.sqlsaturday.com/908/Sessions/Details.aspx?sid=98157) |
+10/11/2019 | [SQL Saturday #908 Denver](https://www.sqlsaturday.com/908/EventHome.aspx) | [Kubernetes Zero to Hero - Installation, Configuration, and Application Configuration](https://www.sqlsaturday.com/908/Sessions/Details.aspx?sid=97978) |
 09/10/2019 | [PASS HADR Virtual Chapter](https://hadr.pass.org/MeetingDetails.aspx?EventID=14014) | Deploying SQL Server in Kubernetes | [Recording](https://www.youtube.com/watch?v=5u3Dk4zKa9A&feature=youtu.be)
 08/17/2019 | [SQL Saturday #515 - Baton Rouge](https://www.sqlsaturday.com/867/EventHome.aspx) | [Containers - You Better Get On Board](https://www.sqlsaturday.com/867/Sessions/Details.aspx?sid=93915)
 08/17/2019 | [SQL Saturday #515 - Baton Rouge](https://www.sqlsaturday.com/867/EventHome.aspx) | [Kubernetes - An Architectural Deep Dive](https://www.sqlsaturday.com/867/Sessions/Details.aspx?name=inside-kubernetes-an-architectural-deep-dive&sid=93916) 
