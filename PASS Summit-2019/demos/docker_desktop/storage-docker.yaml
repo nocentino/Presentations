@@ -1,0 +1,19 @@
+#This example is to run SQL Server in Docker for Desktop
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: test-sc
+provisioner: docker.io/hostpath
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-instance
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: test-sc
+  resources:
+    requests:
+      storage: 10Gi
+---
