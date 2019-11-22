@@ -2,6 +2,8 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+11/20/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Practical Container Scenarios in Azure](https://live360events.com/Events/Orlando-2019/Sessions/Monday/CCM02-Workshop-Kubernetes-Zero-to-Hero.aspx) |
+11/18/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Kubernetes Zero to Hero - Installation, Configuration, and Application Deployment](https://live360events.com/Events/Orlando-2019/Sessions/Wednesday/CCW06-Practical-Container-Scenarios-in-Azure.aspx) |
 11/06/2019 | [PASS Summit 2019](https://www.pass.org/summit/2019/) | [Inside Kubernetes - An Architectural Deep Dive](https://www.pass.org/summit/2019/Learn/SpeakerDetails.aspx?spid=4243) |
 10/12/2019 | [SQL Saturday #908 Denver](https://www.sqlsaturday.com/908/EventHome.aspx) | [Practical Container Scenarios in Azure](https://www.sqlsaturday.com/908/Sessions/Details.aspx?sid=98157) |
 10/11/2019 | [SQL Saturday #908 Denver](https://www.sqlsaturday.com/908/EventHome.aspx) | [Kubernetes Zero to Hero - Installation, Configuration, and Application Configuration](https://www.sqlsaturday.com/908/Sessions/Details.aspx?sid=97978) |
