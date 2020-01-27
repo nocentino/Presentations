@@ -2,7 +2,8 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-11/20/2019 | [PASS Performance Virtual Chapter](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) | [Monitoring Linux Performance for the SQL Server Admin](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) |
+01/24/2020 | [PASS DevOps Virtual Chapter](https://devops.pass.org/MeetingArchive.aspx) | [Inside Kubernetes - An Architectural Deep Dive](https://devops.pass.org/MeetingArchive.aspx) |
+01/23/2020 | [PASS Performance Virtual Chapter](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) | [Monitoring Linux Performance for the SQL Server Admin](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) |
 11/20/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Practical Container Scenarios in Azure](https://live360events.com/Events/Orlando-2019/Sessions/Monday/CCM02-Workshop-Kubernetes-Zero-to-Hero.aspx) |
 11/18/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Kubernetes Zero to Hero - Installation, Configuration, and Application Deployment](https://live360events.com/Events/Orlando-2019/Sessions/Wednesday/CCW06-Practical-Container-Scenarios-in-Azure.aspx) |
 11/06/2019 | [PASS Summit 2019](https://www.pass.org/summit/2019/) | [Inside Kubernetes - An Architectural Deep Dive](https://www.pass.org/summit/2019/Learn/SpeakerDetails.aspx?spid=4243) |
