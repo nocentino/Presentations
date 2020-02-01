@@ -2,6 +2,7 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+10/12/2019 | [SQL Saturday #930 Denver](https://www.sqlsaturday.com/930/EventHome.aspx) | [Practical Container Scenarios in Azure](https://www.sqlsaturday.com/930/Sessions/Details.aspx?sid=100196) |
 01/24/2020 | [PASS DevOps Virtual Chapter](https://devops.pass.org/MeetingArchive.aspx) | [Inside Kubernetes - An Architectural Deep Dive](https://devops.pass.org/MeetingArchive.aspx) |
 01/23/2020 | [PASS Performance Virtual Chapter](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) | [Monitoring Linux Performance for the SQL Server Admin](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) |
 11/20/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Practical Container Scenarios in Azure](https://live360events.com/Events/Orlando-2019/Sessions/Monday/CCM02-Workshop-Kubernetes-Zero-to-Hero.aspx) |
