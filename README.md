@@ -2,6 +2,7 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+02/18/2020 | [Adelaide SQL Server User](https://adelaide.pass.org/PreviousMeetings.aspx) | [Containers - You Better Get on Board!](https://adelaide.pass.org/PreviousMeetings.aspx) |
 02/01/2020 | [SQL Saturday #930 Cleveland](https://www.sqlsaturday.com/930/EventHome.aspx) | [Practical Container Scenarios in Azure](https://www.sqlsaturday.com/930/Sessions/Details.aspx?sid=100196) |
 01/24/2020 | [PASS DevOps Virtual Chapter](https://devops.pass.org/MeetingArchive.aspx) | [Inside Kubernetes - An Architectural Deep Dive](https://devops.pass.org/MeetingArchive.aspx) |
 01/23/2020 | [PASS Performance Virtual Chapter](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) | [Monitoring Linux Performance for the SQL Server Admin](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) |
