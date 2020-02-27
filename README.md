@@ -1,11 +1,16 @@
-# Presentations - 2019
+# Presentations - 2020
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+02/26/2020 | [Calgary SQL Server User](https://calgary.pass.org/MeetingArchive.aspx) | [Deploying SQL Server on Kubernetes](https://calgary.pass.org/MeetingArchive.aspx) |
 02/18/2020 | [Adelaide SQL Server User](https://adelaide.pass.org/PreviousMeetings.aspx) | [Containers - You Better Get on Board!](https://adelaide.pass.org/PreviousMeetings.aspx) |
 02/01/2020 | [SQL Saturday #930 Cleveland](https://www.sqlsaturday.com/930/EventHome.aspx) | [Practical Container Scenarios in Azure](https://www.sqlsaturday.com/930/Sessions/Details.aspx?sid=100196) |
 01/24/2020 | [PASS DevOps Virtual Chapter](https://devops.pass.org/MeetingArchive.aspx) | [Inside Kubernetes - An Architectural Deep Dive](https://devops.pass.org/MeetingArchive.aspx) |
 01/23/2020 | [PASS Performance Virtual Chapter](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) | [Monitoring Linux Performance for the SQL Server Admin](https://performance.pass.org/MeetingDetails.aspx?EventID=14668) |
+# Presentations - 2019
+
+Date | Event | Session | Recording
+--- | --- | --- | ---
 11/20/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Practical Container Scenarios in Azure](https://live360events.com/Events/Orlando-2019/Sessions/Monday/CCM02-Workshop-Kubernetes-Zero-to-Hero.aspx) |
 11/18/2019 | [Live360 - Cloud and Containers Live!](https://live360events.com/events/orlando-2019/sessions/pages/cclive.aspx) | [Kubernetes Zero to Hero - Installation, Configuration, and Application Deployment](https://live360events.com/Events/Orlando-2019/Sessions/Wednesday/CCW06-Practical-Container-Scenarios-in-Azure.aspx) |
 11/06/2019 | [PASS Summit 2019](https://www.pass.org/summit/2019/) | [Inside Kubernetes - An Architectural Deep Dive](https://www.pass.org/summit/2019/Learn/SpeakerDetails.aspx?spid=4243) |
@@ -33,6 +38,9 @@ Date | Event | Session | Recording
 02/05/2019 | Chattanooga PowerShell User Group | Containers - You Better Get on Board!
 01/12/2019 | SQL Saturday Nashville | Containers - You Better Get on Board! 
 01/12/2019 | SQL Saturday Nashville | Kubernetes - An Architectural Deep Dive
+# Presentations - 2018
+Date | Event | Session | Recording
+--- | --- | --- | ---
 11/01/2018 | [We Speak Linux](https://wespeaklinux.com/register-for-upcoming-webcasts/) | OpenSSH for Windows Pros
 09/08/2018 | SQL Saturday Cambridge | Monitoring Linux Performance for the SQL Server Admin 
 09/08/2018 | SQL Saturday Cambridge | Containers - You Better Get on Board
@@ -43,6 +51,10 @@ Date | Event | Session | Recording
 02/20/2018 | Utah County SQL Server Users Group | Linux OS Fundamentals for the SQL Admin
 02/19/2018 | PASS Global Hebrew Virtual Meetup | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=aFudBKVIxxQ)
 01/13/2018 | SQL Saturday Nashville | Networking Internals for the SQL Server Professional
+# Presentations - 2017
+
+Date | Event | Session | Recording
+--- | --- | --- | ---
 12/13/2017 | PASS Marathon: Linux Edition | Monitoring Linux Performance for the SQL Admin
 12/13/2017 | PASS Database Administration Virtual Group | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=MJmuGmpso44&feature=youtu.be)
 11/01/2017 | PASS Summit 2017 | Monitoring Linux Performance for the SQL Admin
@@ -61,6 +73,10 @@ Date | Event | Session | Recording
 02/21/2017 | Chicago Suburban SQL Server User Group | Networking Internals for the SQL Professional
 02/01/2017 | SQL Pass PowerShell Virtual Chapter | Linux OS Fundamentals for the SQL Admin | [Recording](https://www.youtube.com/watch?v=DXQrK2QNoZo&t=1s)
 01/14/2017 | SQLSaturday #581 - Nashville | Networking Internals for the SQL Professional
+# Presentations - 2016
+
+Date | Event | Session | Recording
+--- | --- | --- | ---
 11/11/2016 | Albuquerque SQL Server User Group | Performance Monitoring Always On Availability Groups
 10/11/2016 | IT/Dev Connections - Las Vegas | Designing High Availability Systems using AlwaysOn Availability Groups
 08/06/2016 | SQL Saturday #515 - Baton Rouge | Performance Monitoring Always On Availability Groups
