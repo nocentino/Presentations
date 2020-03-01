@@ -14,7 +14,7 @@ Date | Event | Session | Recording
 04/03/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
 04/02/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
 03/21/2020 | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) |
-#Presentations - 2020
+# Presentations - 2020
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
