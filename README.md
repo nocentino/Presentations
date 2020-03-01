@@ -10,11 +10,10 @@ Date | Event | Session | Recording
 04/08/2020 | [SQL Intersection - Orlando]() | [Monitoring Linux Performance for the SQL Server Admin](https://www.sqlintersection.com/#!/session/Monitoring%20Linux%20Performance%20for%20the%20SQL%20Server%20Admin/4403) |
 04/08/2020 | [SQL Intersection - Orlando]() | [Containers – It’s Time to Get On Board](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20It's%20Time%20to%20Get%20On%20Board/4365) |
 04/08/2020 | [SQL Intersection - Orlando]() | [Containers – Continued!](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20Continued!/4366) |
-04/08/2020 | [SQL Intersection - Orlando]() | [Kubernetes Zero to Hero: Installation, Configuration, and Application Deploymen](https://www.sqlintersection.com/#!/workshop/Kubernetes%20Zero%20to%20Hero:%20Installation,%20Configuration,%20and%20Application%20Deployment/4175) |
-04/03/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
-04/02/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
-03/21/2020 | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) |
-
+04/08/2020 | [SQL Intersection - Orlando]() | [Kubernetes Zero to Hero: Installation, Configuration, and Application Deploymen](https://www.sqlintersection.com/#!/workshop/Kubernetes%20Zero%20to%20Hero:%20Installation,%20Configuration,%20and%20Application%20Deployment/4175) 
+04/03/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) 
+04/02/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) 
+03/21/2020 | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) 
 #Presentations - 2020
 
 Date | Event | Session | Recording
