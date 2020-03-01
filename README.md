@@ -2,17 +2,17 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-06/03/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments] (https://psconf.eu/schedule)
-06/02/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro] (https://psconf.eu/schedule)
-05/28/2020 | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2] (https://datagrillen.com/theschedule/)
-04/29/2020 | [PowerShell Summit]() | [Inside Kubernetes – An Architectural Deep Dive] (https://sessions.eventraft.com/PowerShell2020)
-04/08/2020 | [SQL Intersection - Orlando]() | [Linux OS Fundamentals for the SQL Admin](https://www.sqlintersection.com/#!/session/Linux%20OS%20Fundamentals%20for%20the%20SQL%20Admin/4364)
-04/08/2020 | [SQL Intersection - Orlando]() | [Monitoring Linux Performance for the SQL Server Admin](https://www.sqlintersection.com/#!/session/Monitoring%20Linux%20Performance%20for%20the%20SQL%20Server%20Admin/4403)
-04/08/2020 | [SQL Intersection - Orlando]() | [Containers – It’s Time to Get On Board](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20It's%20Time%20to%20Get%20On%20Board/4365)
-04/08/2020 | [SQL Intersection - Orlando]() | [Containers – Continued!](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20Continued!/4366)
-04/08/2020 | [SQL Intersection - Orlando]() | [Kubernetes Zero to Hero: Installation, Configuration, and Application Deploymen](https://www.sqlintersection.com/#!/workshop/Kubernetes%20Zero%20to%20Hero:%20Installation,%20Configuration,%20and%20Application%20Deployment/4175)
-04/03/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) 
-04/02/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) 
+06/03/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments] (https://psconf.eu/schedule) |
+06/02/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro] (https://psconf.eu/schedule) |
+05/28/2020 | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2] (https://datagrillen.com/theschedule/) |
+04/29/2020 | [PowerShell Summit](https://events.devopscollective.org/event/powershell-devops-global-summit/) | [Inside Kubernetes – An Architectural Deep Dive] (https://sessions.eventraft.com/PowerShell2020) |
+04/08/2020 | [SQL Intersection - Orlando]() | [Linux OS Fundamentals for the SQL Admin](https://www.sqlintersection.com/#!/session/Linux%20OS%20Fundamentals%20for%20the%20SQL%20Admin/4364) |
+04/08/2020 | [SQL Intersection - Orlando]() | [Monitoring Linux Performance for the SQL Server Admin](https://www.sqlintersection.com/#!/session/Monitoring%20Linux%20Performance%20for%20the%20SQL%20Server%20Admin/4403) |
+04/08/2020 | [SQL Intersection - Orlando]() | [Containers – It’s Time to Get On Board](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20It's%20Time%20to%20Get%20On%20Board/4365) |
+04/08/2020 | [SQL Intersection - Orlando]() | [Containers – Continued!](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20Continued!/4366) |
+04/08/2020 | [SQL Intersection - Orlando]() | [Kubernetes Zero to Hero: Installation, Configuration, and Application Deploymen](https://www.sqlintersection.com/#!/workshop/Kubernetes%20Zero%20to%20Hero:%20Installation,%20Configuration,%20and%20Application%20Deployment/4175) |
+04/03/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
+04/02/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
 03/21/2020 | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) |
 
 #Presentations - 2020
