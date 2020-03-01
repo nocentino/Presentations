@@ -2,9 +2,9 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-06/03/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments] (https://psconf.eu/schedule) |
-06/02/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro] (https://psconf.eu/schedule) |
-05/28/2020 | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2] (https://datagrillen.com/theschedule/) |
+06/03/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments](https://psconf.eu/schedule) |
+06/02/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro](https://psconf.eu/schedule) |
+05/28/2020 | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2](https://datagrillen.com/theschedule/) |
 04/29/2020 | [PowerShell Summit](https://events.devopscollective.org/event/powershell-devops-global-summit/) | [Inside Kubernetes – An Architectural Deep Dive](https://sessions.eventraft.com/PowerShell2020) |
 04/08/2020 | [SQL Intersection - Orlando]() | [Linux OS Fundamentals for the SQL Admin](https://www.sqlintersection.com/#!/session/Linux%20OS%20Fundamentals%20for%20the%20SQL%20Admin/4364) |
 04/08/2020 | [SQL Intersection - Orlando]() | [Monitoring Linux Performance for the SQL Server Admin](https://www.sqlintersection.com/#!/session/Monitoring%20Linux%20Performance%20for%20the%20SQL%20Server%20Admin/4403) |
