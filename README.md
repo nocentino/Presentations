@@ -18,6 +18,7 @@ Date | Event | Session | Recording
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+03/03/2020 | [Chattanooga PowerShell Server User](https://www.meetup.com/PowerShell_Chattanooga/events/268730315/?_xtd=gqFyqTIwNjMzNTk5NKFwpmlwaG9uZQ&from=ref) | [Inside Kubernetes - An Architectural Deep Dive](https://www.meetup.com/PowerShell_Chattanooga/events/268730315/?_xtd=gqFyqTIwNjMzNTk5NKFwpmlwaG9uZQ&from=ref) |
 02/26/2020 | [Calgary SQL Server User](https://calgary.pass.org/MeetingArchive.aspx) | [Deploying SQL Server on Kubernetes](https://calgary.pass.org/MeetingArchive.aspx) |
 02/18/2020 | [Adelaide SQL Server User](https://adelaide.pass.org/PreviousMeetings.aspx) | [Containers - You Better Get on Board!](https://adelaide.pass.org/PreviousMeetings.aspx) |
 02/01/2020 | [SQL Saturday #930 Cleveland](https://www.sqlsaturday.com/930/EventHome.aspx) | [Practical Container Scenarios in Azure](https://www.sqlsaturday.com/930/Sessions/Details.aspx?sid=100196) |
