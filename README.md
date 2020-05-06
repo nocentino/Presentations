@@ -2,10 +2,6 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-06/03/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments](https://psconf.eu/schedule) |
-06/02/2020 | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro](https://psconf.eu/schedule) |
-Cancelled | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2](https://datagrillen.com/theschedule/) |
-Cancelled | [PowerShell Summit](https://events.devopscollective.org/event/powershell-devops-global-summit/) | [Inside Kubernetes – An Architectural Deep Dive](https://sessions.eventraft.com/PowerShell2020) |
 08/15/2020 | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) |
 10/02/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
 10/01/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
@@ -18,6 +14,12 @@ Cancelled | [PowerShell Summit](https://events.devopscollective.org/event/powers
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+05/06/2020 | [CloudSkills.io Free Workshop](https://cloudskills.mykajabi.com/k8s) | [Kubernetes: Day One for Absolute Beginners](https://cloudskills.mykajabi.com/k8s) |
+05/07/2020 | [DataPlatformGeeks Virtual Symposium – SQL Server 2019](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) | [Deploying SQL Server in Kubernetes](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) |
+Cancelled | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments](https://psconf.eu/schedule) |
+Cancelled | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro](https://psconf.eu/schedule) |
+Cancelled | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2](https://datagrillen.com/theschedule/) |
+Cancelled | [PowerShell Summit](https://events.devopscollective.org/event/powershell-devops-global-summit/) | [Inside Kubernetes – An Architectural Deep Dive](https://sessions.eventraft.com/PowerShell2020) |
 03/03/2020 | [Chattanooga PowerShell Server User](https://www.meetup.com/PowerShell_Chattanooga/events/268730315/?_xtd=gqFyqTIwNjMzNTk5NKFwpmlwaG9uZQ&from=ref) | [Inside Kubernetes - An Architectural Deep Dive](https://www.meetup.com/PowerShell_Chattanooga/events/268730315/?_xtd=gqFyqTIwNjMzNTk5NKFwpmlwaG9uZQ&from=ref) |
 02/26/2020 | [Calgary SQL Server User](https://calgary.pass.org/MeetingArchive.aspx) | [Deploying SQL Server on Kubernetes](https://calgary.pass.org/MeetingArchive.aspx) |
 02/18/2020 | [Adelaide SQL Server User](https://adelaide.pass.org/PreviousMeetings.aspx) | [Containers - You Better Get on Board!](https://adelaide.pass.org/PreviousMeetings.aspx) |
