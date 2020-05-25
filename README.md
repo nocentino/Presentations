@@ -15,7 +15,7 @@ Date | Event | Session | Recording
 Date | Event | Session | Recording
 --- | --- | --- | ---
 05/06/2020 | [CloudSkills.io Free Workshop](https://cloudskills.mykajabi.com/k8s) | [Kubernetes: Day One for Absolute Beginners](https://cloudskills.mykajabi.com/k8s) |
-05/07/2020 | [DataPlatformGeeks Virtual Symposium – SQL Server 2019](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) | [Deploying SQL Server in Kubernetes](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) |
+05/07/2020 | [DataPlatformGeeks Virtual Symposium – SQL Server 2019](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) | [Deploying SQL Server in Kubernetes](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) |[Recording](https://www.youtube.com/watch?v=8o8s9pRRCQA)
 Cancelled | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments](https://psconf.eu/schedule) |
 Cancelled | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro](https://psconf.eu/schedule) |
 Cancelled | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2](https://datagrillen.com/theschedule/) |
