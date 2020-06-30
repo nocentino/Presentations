@@ -1,4 +1,12 @@
 apiVersion: v1
+kind: Secret
+metadata:
+  name: mssql
+type: Opaque
+data:
+  SA_PASSWORD: UzBtZXRoaW5nU0BTdHIwbmch
+---
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: 'pvc-sql-system'
