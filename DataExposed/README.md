@@ -6,7 +6,7 @@ Containers are taking over, changing the way systems are developed and deployedâ
 * Why SQL Server in Containers?
 * Demos:
 	* Run a container
-	* Restoring a database in a container
+	* Creating a database in a container
 	* Running a query
 	* Deploying a new version of SQL Server and attaching existing data
 
