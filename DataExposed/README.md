@@ -18,6 +18,6 @@ Are you thinking about running SQL Server in Kubernetes and don’t know where t
 * Key elements to consider when deploying 
 * Demo:
 	* Deploying SQL Server 2019 in Kubernetes
-	* Creating a database
+	* SQL Server High Availability Scenarios in Kubernetes
 	* Updating SQL Server
 * Foundation for Azure Arc Hybrid Data Services and BDC
