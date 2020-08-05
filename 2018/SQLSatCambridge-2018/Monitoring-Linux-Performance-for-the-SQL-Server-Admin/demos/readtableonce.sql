@@ -1,0 +1,3 @@
+USE TestDB1
+SELECT COUNT(*) FROM t1
+GO
