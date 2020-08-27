@@ -16,7 +16,8 @@ TBD | [PASS Summit - Virtual](https://www.pass.org/summit/2020/) | [Deploying an
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-08/19/2020 | [Steel City  SQL Server User](https://www.meetup.com/SteelCitySQL/events/271166013/) | [Deploying SQL Server on Kubernetes!](https://www.meetup.com/SteelCitySQL/events/271166013/) |
+08/19/2020 | [Kansas City SQL Server User](https://kansascity.pass.org/Meeting-Archive/) | [Deploying SQL Server on Kubernetes](https://kansascity.pass.org/Meeting-Archive) |
+08/19/2020 | [Steel City SQL Server User](https://www.meetup.com/SteelCitySQL/events/271166013/) | [Deploying SQL Server on Kubernetes](https://www.meetup.com/SteelCitySQL/events/271166013/) |
 08/05/2020 | [Chicago Suburban SQL Server User](https://chicagosuburban.pass.org/Home/EventID/15784) | [Containers - You Better Get on Board!](https://chicagosuburban.pass.org/Home/EventID/15784) |
 Cancelled | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) |
 05/06/2020 | [CloudSkills.io Free Workshop](https://cloudskills.mykajabi.com/k8s) | [Kubernetes: Day One for Absolute Beginners](https://cloudskills.mykajabi.com/k8s) |
