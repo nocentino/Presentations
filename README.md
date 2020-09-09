@@ -2,7 +2,6 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-
 09/15/2020 | [Chicago Suburban SQL Server User](https://chicagosuburban.pass.org/default.aspx) | [Inside Kubernetes - Architecture Fundamentals](https://chicagosuburban.pass.org/default.aspx) |
 10/01/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
 10/02/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
