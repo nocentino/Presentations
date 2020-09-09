@@ -1,0 +1,7 @@
+#https://docs.docker.com/docker-hub/repos/#private-repositories
+
+docker pull gcr.io/google-samples/hello-app:1.0
+
+docker login 
+
+sudo docker tag hello-app:1:0 nocentino/hello-app:ps
