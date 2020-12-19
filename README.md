@@ -1,34 +1,29 @@
-# Upcoming Presentations - 2020
+# Upcoming Presentations - 2021
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
-09/15/2020 | [Chicago Suburban SQL Server User](https://chicagosuburban.pass.org/default.aspx) | [Inside Kubernetes - Architecture Fundamentals](https://chicagosuburban.pass.org/default.aspx) |
-10/01/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
-10/02/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
-10/13/2020 | [DataMinds Connect - 2020](https://datamindsconnect.be/agenda/) | [Azure Arc Data Services Fundamentals](https://datamindsconnect.be/agenda/) |
-TBD | [PASS Summit - Virtual](https://www.pass.org/summit/2020/) | [The Future of Deployment for Modern Data Platform Applications - with Ben Weissman](https://www.pass.org/summit/2020/Learn/Session-Details/name/the-future-of-deployment-for-modern-data-platform-applications/sid/103437) | 
-TBD | [PASS Summit - Virtual](https://www.pass.org/summit/2020/) | [Deploying and Managing SQL Server with dbatools](https://www.pass.org/summit/2020/Learn/Session-Details/name/deploying-and-managing-sql-server-with-dbatools/sid/104455) | 
-11/30/2020 - 12/01/2020 | [Data Platform Summit - Virtual](https://dataplatformgeeks.com/dps2020) | [Kubernetes Zero to Hero – Installation, Configuration, and Application Deployment - Workshop](https://dataplatformgeeks.com/dps2020/booking/)
-12/09/2020 | [SQL Intersection - Las Vegas]() | [Linux OS Fundamentals for the SQL Admin](https://www.sqlintersection.com/#!/session/Linux%20OS%20Fundamentals%20for%20the%20SQL%20Admin/4364) |
-12/09/2020 | [SQL Intersection - Las Vegas]() | [Monitoring Linux Performance for the SQL Server Admin](https://www.sqlintersection.com/#!/session/Monitoring%20Linux%20Performance%20for%20the%20SQL%20Server%20Admin/4403) |
-12/09/2020 | [SQL Intersection - Las Vegas]() | [Containers – It’s Time to Get On Board](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20It's%20Time%20to%20Get%20On%20Board/4365) |
-12/09/2020 | [SQL Intersection - Las Vegas]() | [Containers – Continued!](https://www.sqlintersection.com/#!/session/Containers%20%E2%80%93%20Continued!/4366) |
-12/09/2020 | [SQL Intersection - Las Vegas]() | [Kubernetes Zero to Hero: Installation, Configuration, and Application Deploymen](https://www.sqlintersection.com/#!/workshop/Kubernetes%20Zero%20to%20Hero:%20Installation,%20Configuration,%20and%20Application%20Deployment/4175) |
 # Presentations - 2020
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+12/02/2020 | [PASS HADR Virtual Chapter](https://hadr.pass.org/Meeting-Archive) | [HADR Q&A Panel](https://hadr.pass.org/Meeting-Archive)
+12/02/2020 | [Data Platform Summit - Virtual](https://dataplatformgeeks.com/dps2020) | [Containers - What's Next?](https://www.dataplatformgeeks.com/dps2020/resources/dps_2020_sessions_schedule.htm)
+11/30/2020 - 12/01/2020 | [Data Platform Summit - Virtual](https://dataplatformgeeks.com/dps2020) | [Kubernetes Zero to Hero – Installation, Configuration, and Application Deployment - Workshop](https://dataplatformgeeks.com/dps2020/product/training-class-kubernetes-zero-to-hero-installation-configuration-and-application-deployment-by-anthony-nocentino/)
+11/9/2020 | [PASS Summit - Virtual](https://www.pass.org/summit/2020/) | [The Future of Deployment for Modern Data Platform Applications - with Ben Weissman](https://www.pass.org/summit/2020/Learn/Session-Details/name/the-future-of-deployment-for-modern-data-platform-applications/sid/103437) | 
+11/12/2020 | [PASS Summit - Virtual](https://www.pass.org/summit/2020/) | [Deploying and Managing SQL Server with dbatools](https://www.pass.org/summit/2020/Learn/Session-Details/name/deploying-and-managing-sql-server-with-dbatools/sid/104455) | 
+10/13/2020 | [DataMinds Connect - 2020](https://datamindsconnect.be/agenda/) | [Azure Arc Data Services Fundamentals](https://datamindsconnect.be/agenda/) |
+10/01/2020 | [SQLBits - London](https://sqlbits.com) | [Practical Container Scenarios in Azure](https://sqlbits.com/sessions/event20/Practical_Container_Scenarios_in_Azure) |
+10/02/2020 | [SQLBits - London](https://sqlbits.com) | [Deploying SQL Server in Kubernetes](https://sqlbits.com/sessions/event20/Deploying_SQL_Server_in_Kubernetes) |
+09/15/2020 | [Chicago Suburban SQL Server User](https://chicagosuburban.pass.org/default.aspx) | [Inside Kubernetes - Architecture Fundamentals](https://chicagosuburban.pass.org/default.aspx) |
 09/08/2020 | [Sacramento SQL Server User](https://www.meetup.com/Sacramento-SQL-Server-User-Group/events/271841107/) | [Inside Kubernetes - Architecture Fundamentals](https://www.meetup.com/Sacramento-SQL-Server-User-Group/events/271841107/) |
 08/27/2020 | [Kansas City SQL Server User Group](https://kansascity.pass.org/Meeting-Archive) | [Inside Kubernetes - Architecture Fundamentals](https://kansascity.pass.org/Meeting-Archive) |
 08/19/2020 | [Steel City SQL Server User](https://www.meetup.com/SteelCitySQL/events/271166013/) | [Deploying SQL Server on Kubernetes](https://www.meetup.com/SteelCitySQL/events/271166013/) |
 08/05/2020 | [Chicago Suburban SQL Server User](https://chicagosuburban.pass.org/Home/EventID/15784) | [Containers - You Better Get on Board!](https://chicagosuburban.pass.org/Home/EventID/15784) |
+7/2/20 | [Data Exposed!](https://channel9.msdn.com/Shows/Data-Exposed/) | [Deploying SQL Server in Kubernetes](https://channel9.msdn.com/Shows/Data-Exposed/Deploying-SQL-Server-2019-in-Kubernetes) |
+7/2/20 | [Data Exposed!](https://channel9.msdn.com/Shows/Data-Exposed/) | [Deploying SQL Server in Containers](https://channel9.msdn.com/Shows/Data-Exposed/Learn-How-to-Deploy-SQL-Server-2019-in-Containers-in-Just-Minutes) |
 Cancelled | [SQL Saturday Chicago](https://www.sqlsaturday.com/945) | [Deploying SQL Server on Kubernetes](https://www.sqlsaturday.com/945/Sessions/Details.aspx?sid=99553) |
 05/06/2020 | [CloudSkills.io Free Workshop](https://cloudskills.mykajabi.com/k8s) | [Kubernetes: Day One for Absolute Beginners](https://cloudskills.mykajabi.com/k8s) |
 05/07/2020 | [DataPlatformGeeks Virtual Symposium – SQL Server 2019](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) | [Deploying SQL Server in Kubernetes](https://www.dataplatformgeeks.com/virtual-symposium-sql-server-2019-may-2020/) |[Recording](https://www.youtube.com/watch?v=8o8s9pRRCQA)
-Cancelled | [PS Conf EU 2020](https://psconf.eu/schedule) | [Using PowerShell Core Remoting in Cross-Platform Environments](https://psconf.eu/schedule) |
-Cancelled | [PS Conf EU 2020](https://psconf.eu/schedule) | [Linux OS Fundamentals for the PowerShell Pro](https://psconf.eu/schedule) |
-Cancelled | [Data Grillen ](https://datagrillen.com) | [Containers –  Day 2](https://datagrillen.com/theschedule/) |
-Cancelled | [PowerShell Summit](https://events.devopscollective.org/event/powershell-devops-global-summit/) | [Inside Kubernetes – An Architectural Deep Dive](https://sessions.eventraft.com/PowerShell2020) |
 03/03/2020 | [Chattanooga PowerShell Server User](https://www.meetup.com/PowerShell_Chattanooga/events/268730315/?_xtd=gqFyqTIwNjMzNTk5NKFwpmlwaG9uZQ&from=ref) | [Inside Kubernetes - An Architectural Deep Dive](https://www.meetup.com/PowerShell_Chattanooga/events/268730315/?_xtd=gqFyqTIwNjMzNTk5NKFwpmlwaG9uZQ&from=ref) |
 02/26/2020 | [Calgary SQL Server User](https://calgary.pass.org/MeetingArchive.aspx) | [Deploying SQL Server on Kubernetes](https://calgary.pass.org/MeetingArchive.aspx) |
 02/18/2020 | [Adelaide SQL Server User](https://adelaide.pass.org/PreviousMeetings.aspx) | [Containers - You Better Get on Board!](https://adelaide.pass.org/PreviousMeetings.aspx) |
