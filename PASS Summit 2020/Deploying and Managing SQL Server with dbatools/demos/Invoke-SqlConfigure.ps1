@@ -124,7 +124,7 @@ function ConfigureModelDatabase  {
         #Invoke-DbaQuery -SqlInstance "$SqlInstance\$InstanceName" -Database "MASTER" -File "$folder\2-querystore.sql" -EnableException
         
 
-        #Set-DbaDbQueryStoreOption -SqlInstance "$SqlInstance\$InstanceName" -Database 'MODEL' -State ReadWrite -FlushInterval 900 -CollectionInterval 30 -MaxSize 1000 -CaptureMode Auto -CleanupMode Auto -StaleQueryThreshold 367
+        #Set-DbaDbQueryStoreOption -SqlInstance "$SqlInstance\$InstanceName" -Database 'MODEL' -State ReadWrite -CollectionInterval 30 -MaxSize 2048 -CaptureMode Auto -CleanupMode Auto 
     }
     catch {
         Write-Error "Error configuring the model database: $_"
