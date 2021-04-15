@@ -1,0 +1,4 @@
+USE [master]
+RESTORE DATABASE [TestDB1] 
+FROM  DISK = N'/backup/TestDB1.bak' 
+WITH REPLACE
