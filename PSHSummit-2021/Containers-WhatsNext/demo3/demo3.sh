@@ -17,6 +17,7 @@ sqlcmd -S localhost,31433 -U sa -Q "SELECT @@SERVERNAME AS [ServerName]" -P 'S0m
 
 #Query the CPU and Memory configuration of the container.
 #SQL Server on Linux see 80% of RAM from the base OS. 8GB * .80 ~=6GB
+free -m
 sqlcmd -S localhost,31433 -U sa -Q "SELECT cpu_count AS [CPU Count], physical_memory_kb / 1024 / 1024 as [MemoryGB] FROM sys.dm_os_sys_info" -P 'S0methingS@Str0ng!' 
 
 

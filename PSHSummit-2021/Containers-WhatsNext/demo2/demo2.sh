@@ -1,7 +1,7 @@
 cd ../demo2
 
 
-#Demo 1 - Mount and external volume into the container and restore backups
+#Demo 1 - Mount and external volume into the container and restore "large" backups
 #You can COPY the database into the container during the build, but then this can cause your container to grow
 #This will keep the weight of the databases outside of the container.
 docker run \
@@ -15,9 +15,9 @@ docker run \
 
 
 #You can copy backups into the container...but why???  Time...space???
-docker cp ./backups/TestDB1.bak sqldemo2:/backup
-docker exec -u root sqldemo1 chown mssql /var/opt/mssql/data/TestDB1.bak
-sqlcmd -S localhost,31433 -U sa -i restore_testdb1.sql -P 'S0methingS@Str0ng!'
+#docker cp ../backups/TestDB1.bak sqldemo2a:/backup
+#docker exec -u root sqldemo2a chown mssql /var/opt/mssql/data/TestDB1.bak
+#sqlcmd -S localhost,31433 -U sa -i restore_testdb1.sql -P 'S0methingS@Str0ng!'
 
 
 #Check out the contents of the mounted backup folder
