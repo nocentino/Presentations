@@ -1,0 +1,8 @@
+
+SET NOCOUNT ON
+GO
+while ( 1 = 1 )
+BEGIN
+	DBCC CHECKDB('master')
+END
+GO
