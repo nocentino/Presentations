@@ -1,7 +1,20 @@
-# Upcoming Presentations - 2021
+# Presentations - 2021
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+09/16/21 | Data Platform Summit | [How Storage Systems Work With SQL Server](https://dataplatformgeeks.com/dps2021/sessions-agenda-schedule/)
+09/15/21 | Data Platform Summit | [Protecting Data from Disasters and Ransomware](https://dataplatformgeeks.com/dps2021/sessions-agenda-schedule/)
+07/20/21 | TriPASS UG | https://www.meetup.com/tripass/events/279020836/
+06/11/21 | Data Minutes | [Containers - What’s Next!](https://datagrillen.com/dataminutes/) | [Recording](https://www.youtube.com/watch?v=ZQ246jTn9xk)
+06/11/21 | Data Minutes	| [Why Data Professionals Should Care About Storage](https://datagrillen.com/dataminutes/) | [Recording](https://www.youtube.com/watch?v=ALTy_rmoszk)
+03/04/21 | Northern Data Platform and Cloud User Group | [Deploying and Managing SQL Server with dbatools](https://www.meetup.com/UK-Data-Platform-Cloud-Virtual-Meetup/events/276263456/)
+03/08/21 | Atlanta Azure Data User Group | [Azure Arc Data Services Fundamentals](https://www.meetup.com/atlanta-azure-data-user-group/events/276009025/)
+03/11/21 | CXXII Encontro da Comunidade SQLPort with Anthony Nocentino | [Azure Arc Data Services Fundamentals](https://www.meetup.com/sqlport-data/events/276233262)
+04/29/21 | PowerShell Summit | Containers - What’s Next!
+04/29/21 | PowerShell Summit | Deploying and Managing SQL Server with dbatools
+05/12/21 | SQL Day | [Deploying and Managing SQL Server with dbatools](https://sqlday.pl/session/deploying-and-managing-sql-server-with-dbatools/)
+05/10/21 | Capital Area SQL Server User Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/Capital-Area-SQL-Server-User-Group/events/277981480/)
+
 # Presentations - 2020
 
 Date | Event | Session | Recording
