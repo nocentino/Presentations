@@ -1,7 +1,7 @@
 #Based on - https://docs.microsoft.com/en-us/azure/azure-sql/database/scripts/setup-geodr-and-failover-elastic-pool-powershell and https://docs.microsoft.com/en-us/azure/azure-sql/database/auto-failover-group-configure?tabs=azure-powershell#code-try-2
 
 Connect-AzAccount
-$SubscriptionId = 'fd0c5e48-eea6-4b37-a076-0e23e0df74cb'
+$SubscriptionId = 'YOURSUB'
 Set-AzContext -Subscription $SubscriptionId
 
 #Resource group names
@@ -27,10 +27,10 @@ $SqlCred = New-Object -TypeName System.Management.Automation.PSCredential -Argum
 $DatabaseName = "TestDB1"
 
 #This is the IP address of my admin workstation, add any IP addresses or ranges for your application servers
-$PrimaryStartIp = "173.235.60.179"
-$PrimaryEndIp = "173.235.60.179"
-$SecondaryStartIp = "173.235.60.179"
-$SecondaryEndIp = "173.235.60.179"
+$PrimaryStartIp = "YOURIP"
+$PrimaryEndIp = "YOURIP"
+$SecondaryStartIp = "YOURIP"
+$SecondaryEndIp = "YOURIP"
 
 
 #Create two new resource groups in the paired regions
