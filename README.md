@@ -2,6 +2,10 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+12/08/21 | SQL Server and Azure Conference @ DevIntersection | [Containers - You Better Get on Board!](https://www.devintersection.com/#!/session/Containers%20-%20You%20Better%20Get%20on%20Board!/4879)
+12/08/21 | SQL Server and Azure Conference @ DevIntersection | [Deploying and Managing SQL Server with dbatools](https://www.devintersection.com/#!/session/Deploying%20and%20Managing%20SQL%20Server%20with%20dbatools/4878)
+11/18/21 | SQL Server Live! | [How Storage Systems Work With SQL Server](https://live360events.com/Events/Orlando-2021/Sessions/Thursday/SQTH05-How-Storage-Systems-Work-With-SQL-Server.aspx)
+11/12/21 | Redgate PASS Data Community Summit | [Architecting for High Availability in Azure SQL](https://passdatacommunitysummit.com/sessions/268322) | [Recording](https://reg.passdatacommunitysummit.com/flow/redgate/summit2021/portal/page/sessions/session/1629311219292001soAu)
 09/16/21 | Data Platform Summit | [How Storage Systems Work With SQL Server](https://dataplatformgeeks.com/dps2021/sessions-agenda-schedule/)
 09/15/21 | Data Platform Summit | [Protecting Data from Disasters and Ransomware](https://dataplatformgeeks.com/dps2021/sessions-agenda-schedule/)
 07/20/21 | TriPASS UG | https://www.meetup.com/tripass/events/279020836/
