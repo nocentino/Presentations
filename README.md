@@ -8,7 +8,7 @@ Date | Event | Session | Recording
 11/12/21 | Redgate PASS Data Community Summit | [Architecting for High Availability in Azure SQL](https://passdatacommunitysummit.com/sessions/268322) | [Recording](https://reg.passdatacommunitysummit.com/flow/redgate/summit2021/portal/page/sessions/session/1629311219292001soAu)
 09/16/21 | Data Platform Summit | [How Storage Systems Work With SQL Server](https://dataplatformgeeks.com/dps2021/sessions-agenda-schedule/)
 09/15/21 | Data Platform Summit | [Protecting Data from Disasters and Ransomware](https://dataplatformgeeks.com/dps2021/sessions-agenda-schedule/)
-07/20/21 | TriPASS UG | https://www.meetup.com/tripass/events/279020836/
+07/20/21 | TriPASS UG | [Containers - Continued!](https://www.meetup.com/tripass/events/279020836/)
 06/11/21 | Data Minutes | [Containers - What’s Next!](https://datagrillen.com/dataminutes/) | [Recording](https://www.youtube.com/watch?v=ZQ246jTn9xk)
 06/11/21 | Data Minutes	| [Why Data Professionals Should Care About Storage](https://datagrillen.com/dataminutes/) | [Recording](https://www.youtube.com/watch?v=ALTy_rmoszk)
 03/04/21 | Northern Data Platform and Cloud User Group | [Deploying and Managing SQL Server with dbatools](https://www.meetup.com/UK-Data-Platform-Cloud-Virtual-Meetup/events/276263456/)
