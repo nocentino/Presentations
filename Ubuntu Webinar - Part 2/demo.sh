@@ -1,4 +1,9 @@
-open https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftsqlserver.sql2019-ubuntupro2004?tab=Overview
+#open https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftsqlserver.sql2019-ubuntupro2004?tab=Overview
+
+#Prerequisites: 
+# - This machine is already joined to the domain and the required packages installed. 
+# - Please see this post for more details on joining the server to the domain: 
+# - https://www.nocentino.com/posts/2021-12-1-sql-server-linux-active-directory/
 
 #Log into our lab linux server
 ssh aen@webinar.nocentino.lab
@@ -28,10 +33,6 @@ adutil keytab create -k mssql.keytab -p sqluser --password 'P@ssw0rd!' -e aes256
 sudo mv mssql.keytab   /var/opt/mssql/secrets/ 
 sudo chown mssql:mssql /var/opt/mssql/secrets/mssql.keytab 
 sudo chmod 440         /var/opt/mssql/secrets/mssql.keytab
-
-
-#Let's take a peek inside this keytab file
-sudo klist -kte /var/opt/mssql/secrets/mssql.keytab
 
 
 #Now let's configure SQL Server on linux to use the keytab file and set the AD lookup account
@@ -64,4 +65,4 @@ GO
 
 
 #Jump back to our other terminal
-sqlcmd -S . -U sa -Q 'SELECT  s.host_name, auth_scheme FROM sys.dm_exec_connections AS C JOIN sys.dm_exec_sessions AS S ON C.session_id = S.session_id;'
+sqlcmd -S . -U sa -Q 'SELECT  s.host_name, auth_scheme FROM sys.dm_exec_connections AS C JOIN sys.dm_exec_sessions AS S ON C.session_id = S.session_id;' -W
