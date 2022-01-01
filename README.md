@@ -2,6 +2,7 @@
 
 Date | Event | Session | Recording
 --- | --- | --- | ---
+12/30/21 | Cloud Data Driven User Group | [Containers - Continued!](https://www.meetup.com/cloud-data-driven/events/277337037/) | [Recording](https://www.youtube.com/watch?v=cW3CasHVBIA&feature=youtu.be)
 12/08/21 | SQL Server and Azure Conference @ DevIntersection | [Containers - You Better Get on Board!](https://www.devintersection.com/#!/session/Containers%20-%20You%20Better%20Get%20on%20Board!/4879)
 12/08/21 | SQL Server and Azure Conference @ DevIntersection | [Deploying and Managing SQL Server with dbatools](https://www.devintersection.com/#!/session/Deploying%20and%20Managing%20SQL%20Server%20with%20dbatools/4878)
 11/18/21 | SQL Server Live! | [How Storage Systems Work With SQL Server](https://live360events.com/Events/Orlando-2021/Sessions/Thursday/SQTH05-How-Storage-Systems-Work-With-SQL-Server.aspx)
