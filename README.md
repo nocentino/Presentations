@@ -15,8 +15,8 @@ Date | Event | Session | Recording
 03/04/21 | Northern Data Platform and Cloud User Group | [Deploying and Managing SQL Server with dbatools](https://www.meetup.com/UK-Data-Platform-Cloud-Virtual-Meetup/events/276263456/)
 03/08/21 | Atlanta Azure Data User Group | [Azure Arc Data Services Fundamentals](https://www.meetup.com/atlanta-azure-data-user-group/events/276009025/)
 03/11/21 | CXXII Encontro da Comunidade SQLPort with Anthony Nocentino | [Azure Arc Data Services Fundamentals](https://www.meetup.com/sqlport-data/events/276233262)
-04/29/21 | PowerShell Summit | Containers - What’s Next!
-04/29/21 | PowerShell Summit | Deploying and Managing SQL Server with dbatools
+04/29/21 | PowerShell Summit | Containers - What’s Next! | 
+04/29/21 | PowerShell Summit | Deploying and Managing SQL Server with dbatools | [Recording](https://youtu.be/WyfnwPl-j3g)
 05/12/21 | SQL Day | [Deploying and Managing SQL Server with dbatools](https://sqlday.pl/session/deploying-and-managing-sql-server-with-dbatools/)
 05/10/21 | Capital Area SQL Server User Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/Capital-Area-SQL-Server-User-Group/events/277981480/)
 
