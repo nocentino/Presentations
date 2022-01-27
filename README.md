@@ -1,3 +1,8 @@
+# Presentations - 2022
+Date | Event | Session | Recording
+--- | --- | --- | ---
+1/27/22 | Hybrid Virtual Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/hybrid-virtual-group/events/283335199/) | TBD
+
 # Presentations - 2021
 
 Date | Event | Session | Recording
