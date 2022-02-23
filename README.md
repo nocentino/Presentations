@@ -1,6 +1,7 @@
 # Presentations - 2022
 Date | Event | Session | Recording
 --- | --- | --- | ---
+2/22/22| Azure Cloud Native Data Platform UG | [Deploying SQL Server on Kubernetes](https://www.meetup.com/azure-cloud-native-data-platform-user-group/events/284027655/) | [Recording](https://1drv.ms/v/s!AnyeCTSsoLmGeL5kOWC4wMw9-dY?e=1G9bRD)
 1/27/22 | Hybrid Virtual Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/hybrid-virtual-group/events/283335199/) | TBD
 
 # Presentations - 2021
