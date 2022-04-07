@@ -1,10 +1,12 @@
 # Presentations - 2022
 Date | Event | Session | Recording
 --- | --- | --- | ---
-03/11/22| SQLBits 2022 | [The Cloud Never Goes Down, Right?](https://arcade.sqlbits.com/sessions/)
-03/12/22| SQLBits 2022 | [Why is understanding Kubernetes important for your career as a Data Professional?](https://arcade.sqlbits.com/sessions/)
-03/12/22| SQLBits 2022 | [Let's Talk Storage](https://arcade.sqlbits.com/sessions/)
-02/22/22| Azure Cloud Native Data Platform UG | [Deploying SQL Server on Kubernetes](https://www.meetup.com/azure-cloud-native-data-platform-user-group/events/284027655/) | [Recording](https://1drv.ms/v/s!AnyeCTSsoLmGeL5kOWC4wMw9-dY?e=1G9bRD)
+04/04/22 | Azure SQL Conference | [Containers - Continued!](https://mssqlconf.com/#!/session/Containers%20-%20Continued!/5126)
+04/04/22 | Azure SQL Conference | [Let's Talk Storage!](https://mssqlconf.com/#!/session/Let's%20Talk%20Storage!/5125)
+03/11/22 | SQLBits 2022 | [The Cloud Never Goes Down, Right?](https://arcade.sqlbits.com/sessions/)
+03/12/22 | SQLBits 2022 | [Why is understanding Kubernetes important for your career as a Data Professional?](https://arcade.sqlbits.com/sessions/)
+03/12/22 | SQLBits 2022 | [Let's Talk Storage!](https://arcade.sqlbits.com/sessions/)
+02/22/22 | Azure Cloud Native Data Platform UG | [Deploying SQL Server on Kubernetes](https://www.meetup.com/azure-cloud-native-data-platform-user-group/events/284027655/) | [Recording](https://1drv.ms/v/s!AnyeCTSsoLmGeL5kOWC4wMw9-dY?e=1G9bRD)
 01/27/22 | Hybrid Virtual Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/hybrid-virtual-group/events/283335199/) | TBD
 
 # Presentations - 2021
