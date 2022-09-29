@@ -1,0 +1,6 @@
+while ( 1 = 1 ) 
+BEGIN
+    DBCC CHECKDB(master) WITH NO_INFOMSGS
+END
+GO
+GO
