@@ -1,6 +1,10 @@
 # Presentations - 2022
 Date | Event | Session | Recording
 --- | --- | --- | ---
+10/01/22 | Data Saturday Atlanta | [Practical Scenarios for SQL Server 2022's New Storage Features](https://datasaturdays.com/2022-10-01-datasaturday0028/#schedule)
+09/24/22 | Data Saturday Dallas | [Practical Scenarios for SQL Server 2022's New Storage Features](https://datasaturdays.com/2022-09-24-datasaturday0026/#schedule)
+09/29/22 | DBA Virtual User Group | [Containers - What's Next!](https://www.meetup.com/dbavug/events/283281288/)
+06/03/22 | Data Grillen | [Containers - VB6 Edition!](https://datagrillen.com/theschedule/)
 04/04/22 | Azure SQL Conference | [Containers - Continued!](https://mssqlconf.com/#!/session/Containers%20-%20Continued!/5126)
 04/04/22 | Azure SQL Conference | [Let's Talk Storage!](https://mssqlconf.com/#!/session/Let's%20Talk%20Storage!/5125)
 03/11/22 | SQLBits 2022 | [The Cloud Never Goes Down, Right?](https://arcade.sqlbits.com/sessions/)
