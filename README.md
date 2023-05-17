@@ -1,10 +1,10 @@
 # Presentations - 2023
 Date | Event | Session | Recording
 --- | --- | --- | ---
-03/16/2023 | SQLBits 2023 | [Architecting for High Performance SQL Server on Virtual Machines](https://events.sqlbits.com/2023/agenda)
 04/26/2023 | PowerShell Summit 2023 | [Building an Observability Stack in One Line of Code](https://powershellsummit.org/schedule/)
 04/25/2023 | PowerShell Summit 2023 | [Anthony's Favorite dbatools cmdlets and Use Cases](https://powershellsummit.org/schedule/)
 04/23/2023 | PowerShell Summit 2023 | [Pre Conference Workshop Getting Started with Kubernetes](https://powershellsummit.org/schedule/)
+03/16/2023 | SQLBits 2023 | [Architecting for High Performance SQL Server on Virtual Machines](https://events.sqlbits.com/2023/agenda)
 
 # Presentations - 2022
 Date | Event | Session | Recording
