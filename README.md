@@ -1,6 +1,17 @@
+# Presentations - 2023
+Date | Event | Session | Recording
+--- | --- | --- | ---
+03/16/2023 | SQLBits 2023 | [Architecting for High Performance SQL Server on Virtual Machines](https://events.sqlbits.com/2023/agenda)
+04/26/2023 | PowerShell Summit 2023 | [Building an Observability Stack in One Line of Code](https://powershellsummit.org/schedule/)
+04/25/2023 | PowerShell Summit 2023 | [Anthony's Favorite dbatools cmdlets and Use Cases](https://powershellsummit.org/schedule/)
+04/23/2023 | PowerShell Summit 2023 | [Pre Conference Workshop Getting Started with Kubernetes](https://powershellsummit.org/schedule/)
+
 # Presentations - 2022
 Date | Event | Session | Recording
 --- | --- | --- | ---
+11/24/22 | PASS Summit | [Pre-Conference Workshop: Become a Hybrid Architect](https://www.nocentino.com/posts/2022-10-16-pre-conference-workshop-and-sessions-at-pass-summit/)
+11/24/22 | PASS Summit | [The Cloud Never goes Down, Right?](https://www.nocentino.com/posts/2022-10-16-pre-conference-workshop-and-sessions-at-pass-summit/)
+11/24/22 | PASS Summit | [Learning Path Session: Architecting for High Performance SQL Server on Virtual Machines](https://www.nocentino.com/posts/2022-10-16-pre-conference-workshop-and-sessions-at-pass-summit/)
 10/01/22 | Data Saturday Atlanta | [Practical Scenarios for SQL Server 2022's New Storage Features](https://datasaturdays.com/2022-10-01-datasaturday0028/#schedule)
 09/24/22 | Data Saturday Dallas | [Practical Scenarios for SQL Server 2022's New Storage Features](https://datasaturdays.com/2022-09-24-datasaturday0026/#schedule)
 09/29/22 | DBA Virtual User Group | [Containers - What's Next!](https://www.meetup.com/dbavug/events/283281288/)
