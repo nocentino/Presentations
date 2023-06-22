@@ -1,6 +1,8 @@
 # Presentations - 2023
 Date | Event | Session | Recording
 --- | --- | --- | ---
+06/21/2023 | PSConfEU 2023 | [Practical Container Scenarios in Azure](https://psconf.eu/home-2/sessions-schedule/)
+06/22/2023 | PSConfEU 2023 | [Tuning Linux for Performance - I Wanna Go Fast!](https://psconf.eu/home-2/sessions-schedule/)
 04/26/2023 | PowerShell Summit 2023 | [Building an Observability Stack in One Line of Code](https://powershellsummit.org/schedule/)
 04/25/2023 | PowerShell Summit 2023 | [Anthony's Favorite dbatools cmdlets and Use Cases](https://powershellsummit.org/schedule/)
 04/23/2023 | PowerShell Summit 2023 | [Pre Conference Workshop Getting Started with Kubernetes](https://powershellsummit.org/schedule/)
