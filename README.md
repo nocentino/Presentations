@@ -5,8 +5,8 @@ Date | Event | Session | Recording
 06/22/2023 | PSConfEU 2023 | [Tuning Linux for Performance - I Wanna Go Fast!](https://psconf.eu/home-2/sessions-schedule/) | [Recording](https://youtu.be/RMtyLCQLHzE?si=SIk7oLf-aBL3i1iw)
 04/26/2023 | PowerShell Summit 2023 | [Building an Observability Stack in One Line of Code](https://powershellsummit.org/schedule/) | [Recording](https://youtu.be/WkywHyWZ9dE?si=-VBV-nYDZhnG5zJ6)
 04/25/2023 | PowerShell Summit 2023 | [Anthony's Favorite dbatools cmdlets and Use Cases](https://powershellsummit.org/schedule/) | [Recording](https://youtu.be/3Qow5br8Hzo?si=aWIDkG0M_Z_iJF_j)
-04/23/2023 | PowerShell Summit 2023 | [Pre Conference Workshop Getting Started with Kubernetes](https://powershellsummit.org/schedule/) | [Recording](https://youtu.be/Klj8aeBjMSs?si=P6AnCiz1OGPDrulw)
-03/16/2023 | SQLBits 2023 | [Architecting for High Performance SQL Server on Virtual Machines](https://events.sqlbits.com/2023/agenda)
+04/23/2023 | PowerShell Summit 2023 | [Pre Conference Workshop Getting Started with Kubernetes](https://powershellsummit.org/schedule/) 
+03/16/2023 | SQLBits 2023 | [Architecting for High Performance SQL Server on Virtual Machines](https://events.sqlbits.com/2023/agenda) | [Recording](https://youtu.be/Klj8aeBjMSs?si=6JTH0a9D9UhyJ5Ge)
 
 # Presentations - 2022
 Date | Event | Session | Recording
@@ -21,10 +21,10 @@ Date | Event | Session | Recording
 04/04/22 | Azure SQL Conference | [Containers - Continued!](https://mssqlconf.com/#!/session/Containers%20-%20Continued!/5126)
 04/04/22 | Azure SQL Conference | [Let's Talk Storage!](https://mssqlconf.com/#!/session/Let's%20Talk%20Storage!/5125)
 03/11/22 | SQLBits 2022 | [The Cloud Never Goes Down, Right?](https://arcade.sqlbits.com/sessions/) | [Recording](https://youtu.be/-3J108v9XuI?si=MxP27FA_jVTolScC)
-03/12/22 | SQLBits 2022 | [Why is understanding Kubernetes important for your career as a Data Professional?](https://arcade.sqlbits.com/sessions/)
-03/12/22 | SQLBits 2022 | [Let's Talk Storage!](https://arcade.sqlbits.com/sessions/)
+03/12/22 | SQLBits 2022 | [Why is understanding Kubernetes important for your career as a Data Professional?](https://arcade.sqlbits.com/sessions/) | [Recording](https://youtu.be/u9kfmp2wiMo?si=bTxY8Rb9f16XOarX)
+03/12/22 | SQLBits 2022 | [Let's Talk Storage!](https://arcade.sqlbits.com/sessions/) | [Recording](https://youtu.be/-3J108v9XuI?si=DbaBaVjKQPnyiU72)
 02/22/22 | Azure Cloud Native Data Platform UG | [Deploying SQL Server on Kubernetes](https://www.meetup.com/azure-cloud-native-data-platform-user-group/events/284027655/) | [Recording](https://1drv.ms/v/s!AnyeCTSsoLmGeL5kOWC4wMw9-dY?e=1G9bRD)
-01/27/22 | Hybrid Virtual Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/hybrid-virtual-group/events/283335199/) | TBD
+01/27/22 | Hybrid Virtual Group | [Inside Kubernetes – Architecture Fundamentals](https://www.meetup.com/hybrid-virtual-group/events/283335199/) 
 
 # Presentations - 2021
 
