@@ -1,7 +1,9 @@
 ##Demo Setup
+# - One SQL Server running 2022
+# - One 3.5TB database
+# - Using PowerShell 7
 
 
-#Using PowerShell 7
 #Demo 1 - Basic Snapshot backup of a database
 Import-Module dbatools
 Import-Module PureStoragePowerShellSDK2
@@ -14,6 +16,11 @@ $TargetSession = New-PSSession -ComputerName $Target
 $SqlInstance = Connect-DbaInstance -SqlInstance $Target -TrustServerCertificate -NonPooledConnection
 $Credential = Import-CliXml -Path "$HOME\FA_Cred.xml"
 
+
+
+#Let's get some information about our database
+Get-DbaDatabase -SqlInstance $SqlInstance -Database 'FT_Demo' | 
+  Select-Object Name, SizeMB
 
 
 # Connect to the FlashArray's REST API
@@ -61,12 +68,6 @@ Read-DbaBackupHeader -SqlInstance $SqlInstance -Path $BackupFile
 
 
 
-#Let's add some data...imagine this is 10,000 new customers
-$Query = 'INSERT INTO CUSTOMER SELECT TOP 10000 * FROM CUSTOMER'
-Invoke-DbaQuery -SqlInstance $SqlInstance -Database FT_Demo -Query $Query
-
-
-
 #Let's take a log backup
 $LogBackup = Backup-DbaDatabase -SqlInstance $SqlInstance `
   -Database 'FT_Demo' `
@@ -82,9 +83,9 @@ Invoke-DbaQuery -SqlInstance $SqlInstance -Database FT_Demo -Query "DROP TABLE c
 
 
 #Let's check out the state of the database, size, last full and last log
-#In our full don't have the new 10,000 customers...just the original set, we need both the full and the log.
 Get-DbaDatabase -SqlInstance $SqlInstance -Database 'FT_Demo' | 
   Select-Object Name, Size, LastFullBackup, LastLogBackup
+
 
 
 # Offline the database, which we'd have to do anyway if we were restoring a full backup
@@ -151,6 +152,11 @@ Restore-DbaDatabase -SqlInstance $SqlInstance `
 # Online the database
 $Query = "RESTORE DATABASE FT_Demo WITH RECOVERY" 
 Invoke-DbaQuery -SqlInstance $SqlInstance -Database master -Query $Query
+
+
+#Let's see if our table is back in our database...
+#whew...we don't have to tell anybody since our restore was so fast :P 
+Get-DbaDbTable -SqlInstance $SqlInstance -Database 'FT_Demo' -Table 'Customer' | Format-Table
 
 
 

@@ -17,6 +17,13 @@ $Target = 'Sql1'
 $TargetSession = New-PSSession -ComputerName $Target
 $SqlInstance = Connect-DbaInstance -SqlInstance $Target -TrustServerCertificate -NonPooledConnection
 
+
+#Let's get some information about our database
+# It took me 1h:12m to do a full restore of this database on this server
+Get-DbaDbFile -SqlInstance $SqlInstance -Database 'TestDB1' | 
+   Select-Object PhysicalName, Size
+
+
 ################################################################################################################################################
 #Get a reference to our SQL VM in Azure
 $vm = Get-AzVM -ResourceGroupName $ResourceGroupName -Name $Target
@@ -91,7 +98,8 @@ Get-AzSnapshot -ResourceGroupName $ResourceGroupName | Format-Table
 
 
 
-#Let's check out the error log to see what SQL Server thinks happened, someone didn't enable TF3226
+#Let's check out the error log to see what SQL Server thinks happened, 
+#...someone didn't enable TF3226 :P
 Get-DbaErrorLog -SqlInstance $SqlInstance -LogNumber 0 | Format-Table
 
 
@@ -203,8 +211,9 @@ Restore-DbaDatabase -SqlInstance $SqlInstance `
 $Query = "RESTORE DATABASE TestDB1 WITH RECOVERY" 
 Invoke-DbaQuery -SqlInstance $SqlInstance -Database master -Query $Query -Verbose
 
-
 ################################################################################################################################################
+#Demo 1a - Cloning a database back to the same instance
+a################################################################################################################################################
 # We can also clone to new disks, leaving the database online. 
 # This is great accessing data for reporting or even data recovery when you don't need to restore the whole database
 #
@@ -235,10 +244,18 @@ Get-Disk -Number 5 | Set-Disk -IsOffline $False
 
 
 #TODO: Dynamically find drive letters
+Get-Volume
 
 $fileStructure = New-Object System.Collections.Specialized.StringCollection
-$fileStructure.Add("I:\DATA\testdb1.mdf")
-$filestructure.Add("H:\LOG\TestDB1_log.ldf")
+$fileStructure.Add("H:\DATA\Data01.mdf")
+$fileStructure.Add("H:\DATA\Data02.ndf")
+$fileStructure.Add("H:\DATA\Data03.ndf")
+$fileStructure.Add("H:\DATA\Data04.ndf")
+$fileStructure.Add("H:\DATA\Data05.ndf")
+$fileStructure.Add("H:\DATA\Data06.ndf")
+$fileStructure.Add("H:\DATA\Data07.ndf")
+$fileStructure.Add("H:\DATA\Data08.ndf")
+$filestructure.Add("I:\LOG\log.ldf")
 Mount-DbaDatabase -SqlInstance $SqlInstance -Database TestDB1_RESTORE -FileStructure $fileStructure
 
 ################################################################################################################################################
@@ -272,14 +289,14 @@ Update-AzVM -ResourceGroupName $ResourceGroupName -VM $vm
 
 
 #Get references to our original disks
-$DataDiskInitial = Get-AzDisk -ResourceGroupName $ResourceGroupName -DiskName 'Sql1_DATA'
-$LogDiskInitial = Get-AzDisk -ResourceGroupName $ResourceGroupName -DiskName 'Sql1_LOG'
+$DataDiskInitial = Get-AzDisk -ResourceGroupName $ResourceGroupName -DiskName 'sql1_data'
+$LogDiskInitial = Get-AzDisk -ResourceGroupName $ResourceGroupName -DiskName 'sql1_log'
 
 
 #Add our original disks to our VM
-Add-AzVMDataDisk -Name 'Sql1_DATA' -CreateOption Attach -VM $vm -ManagedDiskId $DataDiskInitial.Id -Lun 1
-Add-AzVMDataDisk -Name 'Sql1_LOG' -CreateOption Attach -VM $vm -ManagedDiskId $LogDiskInitial.Id -Lun 2
-Set-AzVMDataDisk -VM $vm -Name 'Sql1_DATA' -Caching ReadWrite
+Add-AzVMDataDisk -Name 'sql1_data' -CreateOption Attach -VM $vm -ManagedDiskId $DataDiskInitial.Id -Lun 1
+Add-AzVMDataDisk -Name 'sql1_log' -CreateOption Attach -VM $vm -ManagedDiskId $LogDiskInitial.Id -Lun 2
+Set-AzVMDataDisk -VM $vm -Name 'sql1_data' -Caching ReadWrite
 Update-AzVM -ResourceGroupName $ResourceGroupName -VM $vm
 
 

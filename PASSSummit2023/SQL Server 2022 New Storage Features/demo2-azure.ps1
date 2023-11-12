@@ -4,7 +4,7 @@
 #      2. Using PowerShell 7
 #      3. Availability Group is already created
 ################################################################################################################################################
-#Demo 1 - Basic Snapshot backup of a database
+#Demo 2 - Seeding an availability group from snapshot
 ################################################################################################################################################
 Import-Module dbatools
 

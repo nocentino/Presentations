@@ -1,3 +1,9 @@
+##Demo Setup
+# - One SQL Server running 2022
+# - One 3.5TB database, and three other databases 
+# - The databases are on different volume and are in the same protection group
+# - Using PowerShell 7
+
 #Demo 2 - Restore one database from a set of backups
 Import-Module dbatools
 Import-Module PureStoragePowerShellSDK2
@@ -17,12 +23,14 @@ $FlashArray = Connect-Pfa2Array –EndPoint sn1-m70-f06-33.puretec.purestorage.c
 
 
 
-$Query = 'ALTER SERVER CONFIGURATION SET SUSPEND_FOR_SNAPSHOT_BACKUP = ON (GROUP = (FT_Demo, TPCC100, TPCH100));'
+$Query = 'ALTER SERVER CONFIGURATION SET SUSPEND_FOR_SNAPSHOT_BACKUP = ON 
+          (GROUP = (FT_Demo, TPCC100, TPCH100));'
 Invoke-DbaQuery -SqlInstance $SqlInstance -Query $Query -Verbose
 
 
 
 #Take a snapshot of the Protection Group while the database is frozen
+#This protection group contains all of the volumes for this SQL instance
 $Snapshot = New-Pfa2ProtectionGroupSnapshot -Array $FlashArray -SourceName 'aen-sql-22-a-pg' 
 $Snapshot
 
@@ -47,6 +55,7 @@ Get-DbaDatabase -SqlInstance $SqlInstance -Database @('FT_Demo','TPCC100','TPCH1
 
 
 # Offline the database, which we'd have to do anyway if we were restoring a full backup
+# Here's we're offlining just one database, rather than all
 Write-Host "Offlining the database..." -ForegcroundColor Red
 $Query = "ALTER DATABASE FT_DEMO SET OFFLINE WITH ROLLBACK IMMEDIATE" 
 Invoke-DbaQuery -SqlInstance $SqlInstance -Database master -Query $Query
@@ -86,7 +95,8 @@ Invoke-Command -Session $TargetSession `
 
 #With three databases in the backup meta data file, you can restore the one database by name...
 # if there's more than one, just restore each one by name with three seperate restore statements
-$Query = "RESTORE DATABASE FT_Demo FROM DISK = '$BackupFile' WITH METADATA_ONLY, REPLACE, NORECOVERY" 
+$Query = "RESTORE DATABASE FT_Demo FROM DISK = '$BackupFile' 
+          WITH METADATA_ONLY, REPLACE, NORECOVERY" 
 Invoke-DbaQuery -SqlInstance $SqlInstance -Database master -Query $Query -Verbose
 
 
