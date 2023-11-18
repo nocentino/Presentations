@@ -1,6 +1,8 @@
 # Presentations - 2023
 Date | Event | Session | Recording
 --- | --- | --- | ---
+11/15/2023 | PASS Summit | [Using SQL Server 2022’s New Storage Features](https://passdatacommunitysummit.com/sessions/1636/)
+11/16/2023 | PASS Summit | [Are Snapshots Backups?](https://passdatacommunitysummit.com/sessions/2023/)
 06/21/2023 | PSConfEU 2023 | [Practical Container Scenarios in Azure](https://psconf.eu/home-2/sessions-schedule/) | [Recording](https://youtu.be/mfR0DKUo-bA?si=vJx5iiAaegEGeN4R)
 06/22/2023 | PSConfEU 2023 | [Tuning Linux for Performance - I Wanna Go Fast!](https://psconf.eu/home-2/sessions-schedule/) | [Recording](https://youtu.be/RMtyLCQLHzE?si=SIk7oLf-aBL3i1iw)
 04/26/2023 | PowerShell Summit 2023 | [Building an Observability Stack in One Line of Code](https://powershellsummit.org/schedule/) | [Recording](https://youtu.be/WkywHyWZ9dE?si=-VBV-nYDZhnG5zJ6)
