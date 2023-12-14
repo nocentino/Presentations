@@ -1,0 +1,82 @@
+version: '3'
+
+services:
+  config:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: dockerfile.ssl
+    volumes:
+      - ./openssl.cnf:/tmp/certs/openssl.cnf
+      - ./certs:/certs
+    command: openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /certs/private.key -out /certs/public.crt -config /tmp/certs/openssl.cnf
+
+  minio1:
+    image: quay.io/minio/minio
+    platform: linux/amd64
+    depends_on: 
+      - config
+    hostname: minio1
+    networks:
+      s3-data:
+        ipv4_address: 172.18.0.20
+    extra_hosts:
+      - "s3.example.com:172.18.0.20"
+    ports:
+      - 9000:9000
+      - 9001:9001
+    volumes:
+      - s3-data:/data
+      - ./certs:/root/.minio/certs/
+    environment:
+      - MINIO_ROOT_USER=MYROOTUSER
+      - MINIO_ROOT_PASSWORD=MYROOTPASSWORD
+    command: server /data --console-address ":9001" 
+
+  createbucket:
+    image: minio/mc
+    platform: linux/amd64
+    networks:
+      s3-data:
+    extra_hosts:
+      - "s3.example.com:172.18.0.20"
+    depends_on:
+      - minio1
+    entrypoint: /bin/sh -c "sleep 60; 
+                            /usr/bin/mc alias set s3admin https://s3.example.com:9000 MYROOTUSER MYROOTPASSWORD --api S3v4 --insecure;
+                            /usr/bin/mc admin user add s3admin anthony nocentino --insecure;
+                            /usr/bin/mc admin policy attach s3admin readwrite --user anthony --insecure;
+                            /usr/bin/mc alias set anthony https://s3.example.com:9000 anthony nocentino --insecure;
+                            /usr/bin/mc mb anthony/sqlbackups  --insecure;"
+      
+  sql1:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    depends_on: 
+      - config
+      - createbucket
+      - minio1
+    hostname: sql1
+    networks:
+      - s3-data
+    extra_hosts:
+      - "s3.example.com:172.18.0.20"
+    ports:
+      - 1433:1433
+    volumes:
+      - sql-data:/var/opt/mssql
+      - ./certs/public.crt:/var/opt/mssql/security/ca-certificates/public.crt:ro
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=S0methingS@Str0ng!
+
+volumes:
+  s3-data:
+  sql-data:
+
+networks:
+  s3-data:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.18.0.0/24"
