@@ -1,3 +1,8 @@
+# Presentations - 2024
+Date | Event | Session | Recording
+--- | --- | --- | ---
+03/22/2024 | SQLBits 2024 | [Unlocking Database Automation with dbatools: Practical Use Cases and Real-World Insights](https://sqlbits.com/attend/the-agenda/friday/#Unlocking_Database_Automation_with_dbatools_Practical_Use_Cases_and_Real-World_Insights)
+
 # Presentations - 2023
 Date | Event | Session | Recording
 --- | --- | --- | ---
