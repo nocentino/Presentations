@@ -1,6 +1,8 @@
 # Presentations - 2024
 Date | Event | Session | Recording
 --- | --- | --- | ---
+04/09/2024 | PowerShell Summit 2024 | [Demystifying APIs: A Practical Guide to Streamlined Data Management and Performance Insights](https://www.powershellsummit.org/schedule/#sz-tab-45390) | [Recording](https://www.youtube.com/watch?v=WXliOue3bvw&list=PLfeA8kIs7CoftSa3hQ9dQseIxdSMBZO_z&index=26)
+04/09/2024 | PowerShell Summit 2024 | [Detecting Workload Anomalies with Prometheus and Machine Learning](https://www.powershellsummit.org/schedule/#sz-tab-45390) | [Recording](https://www.youtube.com/watch?v=AleqE33JTgU&list=PLfeA8kIs7CoftSa3hQ9dQseIxdSMBZO_z&index=59&t=2465s)
 03/22/2024 | SQLBits 2024 | [Unlocking Database Automation with dbatools: Practical Use Cases and Real-World Insights](https://sqlbits.com/attend/the-agenda/friday/#Unlocking_Database_Automation_with_dbatools_Practical_Use_Cases_and_Real-World_Insights)
 
 # Presentations - 2023

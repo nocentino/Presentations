@@ -1,0 +1,83 @@
+version: '3.3'
+
+services:
+  telegraf:
+    image: telegraf
+    hostname: telegraf
+    depends_on:
+      - prometheus
+    volumes:
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    restart: on-failure
+    ports:
+      - 9273:9273
+  prometheus:
+    image: prom/prometheus
+    hostname: prometheus
+    command:
+      - '--storage.tsdb.retention=60d'
+      - '--storage.tsdb.path=/prometheus'
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    volumes:
+      - prometheus-data:/prometheus
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - 9090:9090
+    restart: on-failure
+  grafana:
+    image: grafana/grafana
+    hostname: grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin!
+    depends_on: 
+      - prometheus
+    ports:
+      - 3000:3000
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./grafana/datasources:/etc/grafana/provisioning/datasources
+      - ./grafana/dashboards:/etc/grafana/provisioning/dashboards
+    restart: on-failure
+  metricsml:
+      build:
+        context: .
+        dockerfile: dockerfile.metricsml
+      hostname: metricsml   
+      environment:
+      - PROMETHEUS=http://prometheus:9090/api/v1/query
+      - DAYSBACK=1d
+      depends_on: 
+        - prometheus
+      ports:
+        - 8000:8000
+      restart: on-failure
+  sql1:
+    platform: linux/amd64
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    hostname: sql1
+    ports:
+      - 1433:1433
+    volumes:
+      - sql-data:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=S0methingS@Str0ng!
+  sql2:
+    platform: linux/amd64
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    hostname: sql2
+    ports:
+      - 1434:1433
+    volumes:
+      - sql2-data:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=S0methingS@Str0ng!
+
+
+volumes:
+  sql-data:
+  sql2-data:
+  prometheus-data:
+  grafana-data:

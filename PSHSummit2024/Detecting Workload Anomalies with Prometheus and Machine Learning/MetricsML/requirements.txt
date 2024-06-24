@@ -1,0 +1,5 @@
+pandas 
+prophet
+requests
+prometheus_client
+plotly
