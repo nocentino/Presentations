@@ -1,0 +1,6 @@
+FROM alpine:latest
+
+COPY ./certs /tmp/certs
+
+RUN apk update && \
+    apk add --no-cache openssl    

@@ -1,0 +1,23 @@
+[req]
+distinguished_name = nginx-lb.example.com
+x509_extensions = v3_req
+prompt = no
+
+[nginx-lb.example.com]
+C = US
+ST = MS
+L = Somewhere
+O = IT
+OU = DBATeam
+CN = nginx-lb.example.com
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+IP.1 = 127.0.0.1
+DNS.1 = localhost
+DNS.2 = nginx-lb.example.com
+DNS.3 = nginx-lb
+DNS.4 = host.docker.internal
+
