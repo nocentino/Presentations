@@ -2,7 +2,7 @@
 Date | Event | Session | Recording
 --- | --- | --- | ---
 03/20/2026 | FABCON 2026 & SQLCON 2026 | Load Testing Performance for SQL Server |
-01/22/2026 | MSSQLTips Webinar | [Are Snapshots Backups? Revisiting Modern Data Protection for SQL Server](https://www.mssqltips.com/webcast/are-snapshots-backups-revisiting-modern-data-protection-for-sql-server/) |
+01/22/2026 | MSSQLTips Webinar | [Are Snapshots Backups? Revisiting Modern Data Protection for SQL Server](https://www.mssqltips.com/webcast/are-snapshots-backups-revisiting-modern-data-protection-for-sql-server/) | [Recording](https://www.purestorage.com/video/webinars/revisiting-modern-data-protection-for-sql-server/6388386747112.html)
 
 # Presentations - 2025
 Date | Event | Session | Recording
