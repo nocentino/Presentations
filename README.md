@@ -7,7 +7,7 @@ Date | Event | Session | Recording
 # Presentations - 2025
 Date | Event | Session | Recording
 --- | --- | --- | ---
-11/19/2025 | PASS Summit 2025 | Building an LLM Chatbot on Your Laptop - No Cloud Required! |
+11/19/2025 | PASS Summit 2025 | [Building an LLM Chatbot on Your Laptop - No Cloud Required!](https://github.com/nocentino/building-an-llm-on-your-laptop) |
 09/16/2025 | PASS Summit On Tour - Dallas | Building an LLM Chatbot on Your Laptop - No Cloud Required! |
 09/15/2025 | PASS Summit On Tour - Dallas | Deep-Dive Workshop: Accelerating AI, Performance and Resilience with SQL Server 2025 |
 04/10/2025 | MSSQLTips Webinar | [Get Ready for SQL Server 2025: Accelerating AI, Performance, and Resilience](https://www.mssqltips.com/webcast/get-ready-for-sql-server-2025/) |
