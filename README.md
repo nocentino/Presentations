@@ -1,8 +1,30 @@
+# Presentations - 2026
+Date | Event | Session | Recording
+--- | --- | --- | ---
+03/20/2026 | FABCON 2026 & SQLCON 2026 | Load Testing Performance for SQL Server |
+01/22/2026 | MSSQLTips Webinar | [Are Snapshots Backups? Revisiting Modern Data Protection for SQL Server](https://www.mssqltips.com/webcast/are-snapshots-backups-revisiting-modern-data-protection-for-sql-server/) |
+
+# Presentations - 2025
+Date | Event | Session | Recording
+--- | --- | --- | ---
+11/19/2025 | PASS Summit 2025 | Building an LLM Chatbot on Your Laptop - No Cloud Required! |
+09/16/2025 | PASS Summit On Tour - Dallas | Building an LLM Chatbot on Your Laptop - No Cloud Required! |
+09/15/2025 | PASS Summit On Tour - Dallas | Deep-Dive Workshop: Accelerating AI, Performance and Resilience with SQL Server 2025 |
+04/10/2025 | MSSQLTips Webinar | [Get Ready for SQL Server 2025: Accelerating AI, Performance, and Resilience](https://www.mssqltips.com/webcast/get-ready-for-sql-server-2025/) |
+04/10/2025 | PowerShell + DevOps Global Summit 2025 | Load Testing Storage Performance for SQL Server | [Recording](https://www.youtube.com/watch?v=sY034d0S9N4&list=PLfeA8kIs7CoftB7JKZTiUKnVUHIMtwYF5&index=17)
+04/10/2025 | PowerShell + DevOps Global Summit 2025 | Building an LLM on your Laptop to Learn Faster | [Recording](https://www.youtube.com/watch?v=3t-w0Y4zamE&list=PLfeA8kIs7CoftB7JKZTiUKnVUHIMtwYF5&index=7&t=2207s)
+03/31/2025 | Microsoft Fabric Community Conference | Load Testing Storage Performance for SQL Server |
+
 # Presentations - 2024
 Date | Event | Session | Recording
 --- | --- | --- | ---
+12/03/2024 | MSSQLTips Webinar | Load Testing Storage Performance for SQL Server |
+11/09/2024 | PASS Summit 2024 | Load Testing Storage Performance for SQL Server |
+09/07/2024 | Data Saturday Dallas 2024 | Unlocking Database Automation with dbatools: Practical Use Cases and Real-World Insights |
+04/11/2024 | PowerShell Summit 2024 | [Detecting Workload Anomalies with Prometheus and Machine Learning](https://www.powershellsummit.org/schedule/#sz-tab-45390) | [Recording](https://www.youtube.com/watch?v=AleqE33JTgU&list=PLfeA8kIs7CoftSa3hQ9dQseIxdSMBZO_z&index=59&t=2465s)
+04/10/2024 | PowerShell Summit 2024 | Introduction to Containers and Kubernetes |
 04/09/2024 | PowerShell Summit 2024 | [Demystifying APIs: A Practical Guide to Streamlined Data Management and Performance Insights](https://www.powershellsummit.org/schedule/#sz-tab-45390) | [Recording](https://www.youtube.com/watch?v=WXliOue3bvw&list=PLfeA8kIs7CoftSa3hQ9dQseIxdSMBZO_z&index=26)
-04/09/2024 | PowerShell Summit 2024 | [Detecting Workload Anomalies with Prometheus and Machine Learning](https://www.powershellsummit.org/schedule/#sz-tab-45390) | [Recording](https://www.youtube.com/watch?v=AleqE33JTgU&list=PLfeA8kIs7CoftSa3hQ9dQseIxdSMBZO_z&index=59&t=2465s)
+03/22/2024 | SQLBits 2024 | Ask the Expert - Group A |
 03/22/2024 | SQLBits 2024 | [Unlocking Database Automation with dbatools: Practical Use Cases and Real-World Insights](https://sqlbits.com/attend/the-agenda/friday/#Unlocking_Database_Automation_with_dbatools_Practical_Use_Cases_and_Real-World_Insights)
 
 # Presentations - 2023
